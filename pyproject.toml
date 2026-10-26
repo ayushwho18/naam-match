@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "naam-match"
+version = "0.1.0"
+description = "Transparent Hindi/English name matching for Indian land records"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ayush Dewangan", email = "hello@theayushdewangan.me"}]
+requires-python = ">=3.9"
+keywords = ["name matching", "hindi", "transliteration", "land records", "india", "jaro-winkler"]
+classifiers = ["License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3", "Natural Language :: Hindi"]
+
+[project.urls]
+Homepage = "https://theayushdewangan.me"
+Source = "https://github.com/ayushwho18/naam-match"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["naam_match"]

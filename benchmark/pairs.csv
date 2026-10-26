@@ -1,0 +1,1001 @@
+name_a,name_b,same_person,kind
+Pooja Yadav,P. Yadav,1,initial
+Mahesh Verma,Ramesh Varma,0,diff_first_same_last
+मोहन निषाद,Mohan Nishad,1,script
+भूपेंद्र पटेल,Rajesh Tiwary,0,different
+Deepak निषाद,Dinesh Nishad,0,near_miss
+Ayush बंजारे,Ayush Yadav,0,diff_last_same_first
+Pooja बंजारे,Pooja Sharma,0,diff_last_same_first
+Sunita Tiwari,Sunil Tiwary,0,near_miss
+Vijay Verma,Vijay Verma,1,suffix
+Sunil Sahu,Sunil Sahu,1,suffix
+प्रिया अग्रवाल,Priya Chandrakar,0,diff_last_same_first
+Vijay Agrawal,Vijay Agarwal,1,spelling
+Mr. संतोष कश्यप,Santosh Kashyap,1,script+honorific
+Kamla गुप्ता,Kavita Gupta,0,near_miss
+कमला मिश्रा,Hemant Nishad,0,different
+Santosh सिन्हा,Shyam Sinha,0,near_miss
+Sunita Mishra,S. Mishra,1,initial
+हेमंत वर्मा,Priya Banjare,0,different
+Ramesh गुप्ता,Aayush Gupta,0,diff_first_same_last
+Smt. Kavita Chandrakar,Kavitha Chandrakar,1,honorific
+श्री आयुष चंद्राकर,Aayush Chandrakar,1,script+honorific
+Ayush Gupta,Aayush Gupta,1,suffix
+मोहन मिश्रा,Mohan Banjare,0,diff_last_same_first
+Ramesh Kashyap,Ramesh Kashyap,1,suffix
+Pooja Patel,Puja Patel,1,spelling
+Ayush सिन्हा,Dipak Sinha,0,diff_first_same_last
+Mr. श्याम चंद्राकर,Shyam Chandrakar,1,script+honorific
+कविता Gupta,Hemant Gupta,0,diff_first_same_last
+श्रीमती अनीता नेताम,Aneeta Netam,1,script+honorific
+सुनीता वर्मा,Rakesh Patel,0,different
+Hemant Thakur,Thakur Hemant,1,order
+Kavita Banjare,Kavitha Banjare,1,spelling
+गीता Devi मिश्रा,Gita Mishra,1,suffix
+लक्ष्मी कश्यप,Laxmi Patel,0,diff_last_same_first
+Mahesh निषाद,Mahesh Tiwari,0,diff_last_same_first
+Sunita Agrawal,S. Agrawal,1,initial
+Rekha Verma,Rekha Varma,1,spelling
+Shyam Yadav,Yadav Shyam,1,order
+Ramesh नेताम,Rakesh Netam,0,near_miss
+Kumari कमला वर्मा,Kamla Verma,1,script+honorific
+Shyam Agrawal,Shyam Agarwal,1,suffix
+Mahesh Sahu,Dinesh Sahu,0,near_miss
+Kavita Dewangan,K. Devangan,1,initial
+Mahesh Chandrakar,Dinesh Chandrakar,0,near_miss
+Ayush शर्मा,Aayush Chandrakar,0,diff_last_same_first
+सुनीता देवांगन,Sunita Mishra,0,diff_last_same_first
+Ramesh Dewangan,Dewangan Ramesh,1,order
+Dinesh Kashyap,Dinesh Kashyap,1,suffix
+हेमंत तिवारी,Vijay Tiwari,0,diff_first_same_last
+कमला मिश्रा,Kamla Mishra,1,script
+राकेश बंजारे,Dinesh Agrawal,0,different
+Rajesh पटेल,Rakesh Patel,0,near_miss
+Kamla मिश्रा,Kavita Mishra,0,near_miss
+Geeta Tiwari,Rekha Tiwary,0,near_miss
+Rekha Kashyap,R. Kashyap,1,initial
+Ramesh Gupta,Rakesh Gupta,0,near_miss
+विजय मिश्रा,Savitri Sahu,0,different
+महेश मिश्रा,Mahesh Patel,0,diff_last_same_first
+Vijay शर्मा,Ajay Sharma,0,near_miss
+Priya चंद्राकर,Priya Mishra,0,diff_last_same_first
+Mohan Sinha,Sinha Mohan,1,order
+Ayush Chandrakar,Rakesh Chandrakar,0,diff_first_same_last
+Bhupendra Chandrakar,Chandrakar Bhupendra,1,order
+अनीता Devi कश्यप,Anita Kashyap,1,suffix
+Ayush Kashyap,Aayush Kashyap,1,suffix
+Shri राकेश वर्मा,Rakesh Verma,1,script+honorific
+रेखा गुप्ता,Mohan Patel,0,different
+Mr. Mohan Yadav,Mohan Yadav,1,honorific
+गीता तिवारी,Hemant Banjare,0,different
+पूजा सिन्हा,Rajesh Patel,0,different
+आयुष Sahu,Rajesh Saahu,0,diff_first_same_last
+Sunita मिश्रा,Sunil Mishra,0,near_miss
+दिनेश बंजारे,Santosh Dewangan,0,different
+Shyam Verma,Shyam Verma,1,suffix
+मनोज गुप्ता,Geeta Mishra,0,different
+Vijay Yadav,Yadav Vijay,1,order
+Kavita बंजारे,Kavitha Thakur,0,diff_last_same_first
+संतोष सिन्हा,Mahesh Sinha,0,diff_first_same_last
+मोहन चंद्राकर,Mohan Yadav,0,diff_last_same_first
+गीता सिन्हा,Gita Sinha,1,script
+Pooja देवांगन,Vijay Dewangan,0,diff_first_same_last
+Rajesh Mishra,Rajesh Mishra,1,spelling
+Rajesh Gupta,R. Gupta,1,initial
+Vijay Sinha,Sinha Vijay,1,order
+विजय यादव,Rekha Yadav,0,diff_first_same_last
+दिनेश कश्यप,Dinesh Kashyap,1,script
+श्रीमती अनीता कश्यप,Anita Kashyap,1,script+honorific
+Shri मनोज मिश्रा,Manoj Mishra,1,script+honorific
+मोहन कश्यप,Lakshmi Mishra,0,different
+Manoj Dewangan,Manoj Dewangan,1,suffix
+Santosh Netam,Netam Santosh,1,order
+Mohan गुप्ता,Kavita Gupta,0,diff_first_same_last
+कमला पटेल,Rajesh Chandrakar,0,different
+राजेश मिश्रा,Shyam Patel,0,different
+Kavita चंद्राकर,Kavitha Sahu,0,diff_last_same_first
+सुनीता बंजारे,Rekha Sinha,0,different
+Rakesh Verma,Rakesh Varma,1,suffix
+Vijay देवांगन,Savitri Dewangan,0,diff_first_same_last
+प्रिया गुप्ता,Priya Netam,0,diff_last_same_first
+Mr. Shyam Dewangan,Shyam Dewangan,1,honorific
+दिनेश शर्मा,Ayush Mishra,0,different
+Mrs. Pooja Thakur,Pooja Thakur,1,honorific
+Rajesh गुप्ता,Rakesh Gupta,0,near_miss
+रमेश पटेल,Santosh Patel,0,diff_first_same_last
+लक्ष्मी सिन्हा,Laxmi Sinha,1,script
+राकेश बंजारे,Rakesh Thakur,0,diff_last_same_first
+अनीता वर्मा,Anita Nishad,0,diff_last_same_first
+Ramesh Nishad,Ramesh Nishad,1,suffix
+राकेश Chandrakar,Bhupendra Chandrakar,0,diff_first_same_last
+Mohan देवांगन,Mohan Sahu,0,diff_last_same_first
+Smt. रेखा चंद्राकर,Rekha Chandrakar,1,script+honorific
+Dinesh Banjare,Dinesh Banjare,1,suffix
+मोहन Mishra,Rajesh Mishra,0,diff_first_same_last
+Mahesh वर्मा,Mahesh Nishad,0,diff_last_same_first
+रेखा अग्रवाल,Priya Sharma,0,different
+Kamla मिश्रा,Kamala Yadav,0,diff_last_same_first
+Deepak ठाकुर,Dinesh Thakur,0,near_miss
+लक्ष्मी अग्रवाल,Aneeta Sinha,0,different
+Lakshmi Sharma,Laxmi Sharma,1,spelling
+Ayush Sinha,Dinesh Sinha,0,diff_first_same_last
+Mrs. गीता गुप्ता,Gita Gupta,1,script+honorific
+Mohan Verma,Kavita Varma,0,diff_first_same_last
+प्रिया निषाद,Priya Nishad,1,script
+Manoj Sahu,M. Sahu,1,initial
+सुनील वर्मा,Sunil Banjare,0,diff_last_same_first
+श्रीमती अनीता देवांगन,Aneeta Devangan,1,script+honorific
+श्री श्याम मिश्रा,Shyam Mishra,1,script+honorific
+Mahesh Sahu,M. Saahu,1,initial
+Santosh Sinha,Santosh Sinha,1,suffix
+Hemant Banjare,Banjare Hemant,1,order
+Mr. Rakesh Gupta,Rakesh Gupta,1,honorific
+सावित्री शर्मा,Ramesh Thakur,0,different
+Sunita Thakur,Thakur Suneeta,1,order
+भूपेंद्र शर्मा,Bhupendra Sinha,0,diff_last_same_first
+सावित्री सिन्हा,Suneeta Verma,0,different
+Dinesh मिश्रा,Dinesh Yadav,0,diff_last_same_first
+Hemant Kashyap,Hemraj Kashyap,0,near_miss
+Lakshmi Banjare,L. Banjare,1,initial
+Hemant Sahu,Sahu Hemant,1,order
+Lakshmi Sharma,Laxmi Sharma,1,spelling
+Lakshmi ठाकुर,Laxmi Sahu,0,diff_last_same_first
+सुनीता Thakur,Sunil Thakur,0,near_miss
+कविता साहू,Mohan Mishra,0,different
+प्रिया नेताम,Hemant Gupta,0,different
+गीता कश्यप,Mohan Netam,0,different
+Sunil तिवारी,Aneeta Tiwary,0,diff_first_same_last
+Lakshmi Nishad,Laxmi Nishad,1,spelling
+Kamla Banjare,Kavita Banjare,0,near_miss
+भूपेंद्र कश्यप,Aneeta Kashyap,0,diff_first_same_last
+संतोष निषाद,Santosh Nishad,1,script
+सुनीता साहू,Suneeta Saahu,1,script
+Dinesh Verma,Dinesh Verma,1,suffix
+Mahesh Verma,Mahesh Verma,1,suffix
+महेश मिश्रा,Mahesh Yadav,0,diff_last_same_first
+Bhupendra Nishad,Bhupendra Nishad,1,suffix
+Mr. Rajesh Thakur,Rajesh Thakur,1,honorific
+श्री मनोज नेताम,Manoj Netam,1,script+honorific
+Vijay तिवारी,Vijay Sharma,0,diff_last_same_first
+विजय अग्रवाल,Lakshmi Agrawal,0,diff_first_same_last
+प्रिया गुप्ता,Priya Gupta,1,script
+आयुष पटेल,Vijay Thakur,0,different
+Bhupendra Thakur,Thakur Bhupendra,1,order
+संतोष निषाद,Santosh Nishad,1,script
+श्रीमती प्रिया अग्रवाल,Priya Agarwal,1,script+honorific
+रमेश यादव,Aayush Sahu,0,different
+श्रीमती Rekha Sahu,Rekha Sahu,1,honorific
+रमेश देवांगन,Ramesh Dewangan,1,script
+भूपेंद्र गुप्ता,Bhupendra Netam,0,diff_last_same_first
+Mrs. सुनीता वर्मा,Suneeta Varma,1,script+honorific
+Mr. Ramesh Banjare,Ramesh Banjare,1,honorific
+Santosh Gupta,Santosh Gupta,1,suffix
+Shri रमेश सिन्हा,Ramesh Sinha,1,script+honorific
+प्रिया वर्मा,Priya Varma,1,script
+Manoj ठाकुर,Manoj Verma,0,diff_last_same_first
+दिनेश मिश्रा,Dinesh Mishra,1,script
+Mrs. Kamla Sahu,Kamala Sahu,1,honorific
+कविता निषाद,Rajesh Nishad,0,different
+सुनीता गुप्ता,Suneeta Gupta,1,script
+रेखा वर्मा,Rekha Banjare,0,diff_last_same_first
+राजेश गुप्ता,Rajesh Gupta,1,script
+Sunita Tiwari,Tiwary Sunita,1,order
+कमला पटेल,Kamala Chandrakar,0,diff_last_same_first
+Rakesh Tiwari,Rakesh Tiwary,1,spelling
+Rakesh Sharma,R. Sharma,1,initial
+Kavita Netam,K. Netam,1,initial
+पूजा तिवारी,Hemant Patel,0,different
+Pooja Agrawal,Puja Agarwal,1,spelling
+Bhupendra Mishra,Bhupendra Mishra,1,spelling
+Geeta Yadav,Rekha Yadav,0,near_miss
+Pooja Patel,Patel Pooja,1,order
+आयुष ठाकुर,Priya Tiwary,0,different
+Anita Patel,Kavita Patel,0,near_miss
+महेश अग्रवाल,Mahesh Agrawal,1,script
+Anita चंद्राकर,Kavita Chandrakar,0,near_miss
+सावित्री अग्रवाल,Savitri Agarwal,1,script
+Sunil कश्यप,Sunil Verma,0,diff_last_same_first
+Shri Sunil Nishad,Sunil Nishad,1,honorific
+हेमंत गुप्ता,Puja Banjare,0,different
+रेखा गुप्ता,Rekha Varma,0,diff_last_same_first
+Ayush Sharma,Ayush Sharma,1,suffix
+Sunil साहू,Sunil Sinha,0,diff_last_same_first
+सुनीता शर्मा,Suneeta Sinha,0,diff_last_same_first
+Sunita कश्यप,Sunil Kashyap,0,near_miss
+Rekha Bai Chandrakar,Rekha Chandrakar,1,suffix
+श्री मनोज ठाकुर,Manoj Thakur,1,script+honorific
+Mrs. गीता देवांगन,Geeta Devangan,1,script+honorific
+प्रिया ठाकुर,Kavitha Sinha,0,different
+दिनेश यादव,Dinesh Sharma,0,diff_last_same_first
+Bhupendra सिन्हा,Bhupendra Patel,0,diff_last_same_first
+सावित्री निषाद,Savitri Nishad,1,script
+Geeta ठाकुर,Rekha Thakur,0,near_miss
+Rakesh Mishra,Mishra Rakesh,1,order
+Shyam Yadav,Shyam Yadav,1,suffix
+Manoj तिवारी,Gita Tiwari,0,diff_first_same_last
+Mahesh Sharma,Aayush Sharma,0,diff_first_same_last
+Ramesh वर्मा,Rakesh Varma,0,near_miss
+लक्ष्मी तिवारी,Laxmi Tiwari,1,script
+Sunil ठाकुर,Rajesh Thakur,0,diff_first_same_last
+Mohan Nishad,M. Nishad,1,initial
+राकेश ठाकुर,Savitri Patel,0,different
+Kavita Devi Verma,Kavita Verma,1,suffix
+हेमंत यादव,Suneeta Agrawal,0,different
+Hemant Banjare,Hemant Banjare,1,suffix
+Deepak Dewangan,Dinesh Devangan,0,near_miss
+Rajesh निषाद,Rakesh Nishad,0,near_miss
+Manoj Sharma,Manoj Sharma,1,suffix
+Pooja Agrawal,Puja Agarwal,1,spelling
+Rajesh Dewangan,Rajesh Devangan,1,spelling
+मोहन वर्मा,Mohan Chandrakar,0,diff_last_same_first
+Pooja Netam,Priya Netam,0,near_miss
+Kamla Nishad,Nishad Kamla,1,order
+Rajesh Sinha,Rajesh Sinha,1,suffix
+संतोष पटेल,Santosh Yadav,0,diff_last_same_first
+Mohan चंद्राकर,Manoj Chandrakar,0,near_miss
+विजय साहू,Vijay Saahu,1,script
+Geeta अग्रवाल,Rekha Agarwal,0,near_miss
+Rajesh Netam,R. Netam,1,initial
+Mahesh Patel,Dinesh Patel,0,near_miss
+Shri दिनेश साहू,Dinesh Saahu,1,script+honorific
+सुनीता Yadav,Sunil Yadav,0,near_miss
+सुनील अग्रवाल,Rakesh Patel,0,different
+रमेश Dewangan,Kavita Dewangan,0,diff_first_same_last
+भूपेंद्र सिन्हा,Priya Chandrakar,0,different
+Deepak देवांगन,Dinesh Devangan,0,near_miss
+रेखा बंजारे,Kavitha Kashyap,0,different
+Priya Bai Nishad,Priya Nishad,1,suffix
+Rakesh Kashyap,Rakesh Kashyap,1,suffix
+मोहन निषाद,Mohan Nishad,1,script
+श्रीमती कमला चंद्राकर,Kamala Chandrakar,1,script+honorific
+Smt. Anita Sharma,Anita Sharma,1,honorific
+Hemant यादव,Hemraj Yadav,0,near_miss
+लक्ष्मी निषाद,Lakshmi Chandrakar,0,diff_last_same_first
+Rekha Mishra,Rekha Mishra,1,spelling
+श्रीमती Pooja Thakur,Pooja Thakur,1,honorific
+Hemant ठाकुर,Hemraj Thakur,0,near_miss
+Bhupendra Thakur,B. Thakur,1,initial
+Savitri Patel,S. Patel,1,initial
+Mohan Dewangan,Mohan Devangan,1,suffix
+Mr. राकेश नेताम,Rakesh Netam,1,script+honorific
+कविता बंजारे,Kavita Thakur,0,diff_last_same_first
+पूजा Devi चंद्राकर,Puja Chandrakar,1,suffix
+Pooja Yadav,Priya Yadav,0,near_miss
+रमेश पटेल,Lakshmi Chandrakar,0,different
+श्री Sunil Yadav,Sunil Yadav,1,honorific
+सावित्री देवांगन,Savitri Yadav,0,diff_last_same_first
+Vijay शर्मा,Ajay Sharma,0,near_miss
+सावित्री कश्यप,Manoj Kashyap,0,diff_first_same_last
+Vijay Kashyap,Kashyap Vijay,1,order
+Mahesh Mishra,Mishra Mahesh,1,order
+Deepak Sharma,Dinesh Sharma,0,near_miss
+Ayush Thakur,A. Thakur,1,initial
+Bhupendra Nishad,B. Nishad,1,initial
+संतोष पटेल,Santosh Tiwari,0,diff_last_same_first
+Rakesh Mishra,Mishra Rakesh,1,order
+Santosh Patel,Aneeta Patel,0,diff_first_same_last
+Mr. दिनेश बंजारे,Dinesh Banjare,1,script+honorific
+Savitri Kashyap,Kashyap Savitri,1,order
+Sunita Banjare,Sunil Banjare,0,near_miss
+Bhupendra Kashyap,Kashyap Bhupendra,1,order
+दिनेश Gupta,Puja Gupta,0,diff_first_same_last
+श्री मनोज देवांगन,Manoj Dewangan,1,script+honorific
+श्री Mahesh Thakur,Mahesh Thakur,1,honorific
+दीपक वर्मा,Deepak Tiwary,0,diff_last_same_first
+Geeta Verma,Rekha Verma,0,near_miss
+Vijay बंजारे,Savitri Banjare,0,diff_first_same_last
+श्रीमती Priya Sinha,Priya Sinha,1,honorific
+Santosh शर्मा,Santosh Varma,0,diff_last_same_first
+गीता अग्रवाल,Geeta Banjare,0,diff_last_same_first
+Shri हेमंत पटेल,Hemant Patel,1,script+honorific
+Vijay साहू,Ajay Sahu,0,near_miss
+भूपेंद्र साहू,Bhupendra Saahu,1,script
+Mahesh नेताम,Dinesh Netam,0,near_miss
+Sunita Gupta,S. Gupta,1,initial
+श्री दीपक ठाकुर,Deepak Thakur,1,script+honorific
+अनीता Bai मिश्रा,Aneeta Mishra,1,suffix
+सुनीता Mishra,Hemant Mishra,0,diff_first_same_last
+श्री Rajesh Banjare,Rajesh Banjare,1,honorific
+आयुष मिश्रा,Ayush Mishra,1,script
+Savitri Tiwari,Tiwary Savitri,1,order
+विजय अग्रवाल,Vijay Chandrakar,0,diff_last_same_first
+Kamla Patel,Aayush Patel,0,diff_first_same_last
+Hemant चंद्राकर,Hemraj Chandrakar,0,near_miss
+Priya सिन्हा,Priya Dewangan,0,diff_last_same_first
+Rajesh नेताम,Rajesh Patel,0,diff_last_same_first
+Geeta Kashyap,Rekha Kashyap,0,near_miss
+Hemant Netam,Hemant Netam,1,suffix
+Sunil देवांगन,Savitri Dewangan,0,diff_first_same_last
+Bhupendra Tiwari,Bhupendra Tiwary,1,spelling
+Kumari Kamla Gupta,Kamla Gupta,1,honorific
+महेश अग्रवाल,Mahesh Chandrakar,0,diff_last_same_first
+सावित्री देवांगन,Savitri Dewangan,1,script
+सुनीता ठाकुर,Sunil Thakur,0,near_miss
+मोहन ठाकुर,Mohan Agrawal,0,diff_last_same_first
+मोहन शर्मा,Rakesh Sharma,0,diff_first_same_last
+Rekha Sahu,Hemant Saahu,0,diff_first_same_last
+सुनील ठाकुर,Sunil Sharma,0,diff_last_same_first
+Ramesh नेताम,Rakesh Netam,0,near_miss
+Vijay सिन्हा,Ajay Sinha,0,near_miss
+मोहन मिश्रा,Mohan Mishra,1,script
+Hemant Mishra,Hemant Mishra,1,suffix
+हेमंत तिवारी,Dinesh Yadav,0,different
+अनीता यादव,Kamla Patel,0,different
+दिनेश यादव,Dinesh Yadav,1,script
+महेश मिश्रा,Mahesh Mishra,1,script
+Mohan सिन्हा,Manoj Sinha,0,near_miss
+सुनीता बंजारे,Sunita Tiwari,0,diff_last_same_first
+Sunita बंजारे,Sunil Banjare,0,near_miss
+महेश अग्रवाल,Mahesh Netam,0,diff_last_same_first
+Sunita Gupta,Santosh Gupta,0,diff_first_same_last
+Kamla Verma,K. Varma,1,initial
+श्याम ठाकुर,Shyam Sinha,0,diff_last_same_first
+Mahesh Agrawal,Dinesh Agarwal,0,near_miss
+श्याम यादव,Mahesh Agarwal,0,different
+महेश निषाद,Mahesh Sahu,0,diff_last_same_first
+प्रिया चंद्राकर,Mahesh Nishad,0,different
+Smt. Lakshmi Dewangan,Lakshmi Devangan,1,honorific
+Rekha Sinha,Rekha Sinha,1,spelling
+Kavita Mishra,Mishra Kavitha,1,order
+Dinesh Verma,Dinesh Varma,1,spelling
+Shri मोहन शर्मा,Mohan Sharma,1,script+honorific
+श्री Shyam Tiwari,Shyam Tiwary,1,honorific
+Shyam Sinha,S. Sinha,1,initial
+Anita शर्मा,Ramesh Sharma,0,diff_first_same_last
+Bhupendra Gupta,B. Gupta,1,initial
+Priya Mishra,Priya Mishra,1,spelling
+Ramesh Nishad,Rakesh Nishad,0,near_miss
+श्रीमती Geeta Netam,Geeta Netam,1,honorific
+Sunita Thakur,Suneeta Thakur,1,spelling
+Shyam Mishra,S. Mishra,1,initial
+विजय साहू,Vijay Nishad,0,diff_last_same_first
+आयुष देवांगन,Ayush Devangan,1,script
+Manoj Thakur,Manoj Thakur,1,spelling
+Kamla पटेल,Kavita Patel,0,near_miss
+Pooja नेताम,Priya Netam,0,near_miss
+रमेश अग्रवाल,Kavita Saahu,0,different
+लक्ष्मी चंद्राकर,Lakshmi Yadav,0,diff_last_same_first
+लक्ष्मी गुप्ता,Laxmi Gupta,1,script
+Rekha Yadav,R. Yadav,1,initial
+Kumari Sunita Yadav,Sunita Yadav,1,honorific
+सुनीता Devi कश्यप,Sunita Kashyap,1,suffix
+भूपेंद्र शर्मा,Bhupendra Sharma,1,script
+Anita Nishad,Nishad Aneeta,1,order
+Santosh Kashyap,Priya Kashyap,0,diff_first_same_last
+Mrs. Savitri Agrawal,Savitri Agarwal,1,honorific
+Hemant नेताम,Hemant Chandrakar,0,diff_last_same_first
+Savitri Verma,Verma Savitri,1,order
+Savitri Sharma,Sharma Savitri,1,order
+संतोष सिन्हा,Santosh Sinha,1,script
+Hemant Verma,Varma Hemant,1,order
+दीपक कश्यप,Manoj Kashyap,0,different
+कविता Yadav,Dinesh Yadav,0,diff_first_same_last
+भूपेंद्र Kashyap,Ramesh Kashyap,0,diff_first_same_last
+आयुष देवांगन,Aayush Devangan,1,script
+रमेश गुप्ता,Ramesh Chandrakar,0,diff_last_same_first
+Deepak Yadav,Dinesh Yadav,0,near_miss
+Deepak Kashyap,Suneeta Kashyap,0,diff_first_same_last
+दिनेश साहू,Dinesh Saahu,1,script
+Rajesh अग्रवाल,Rakesh Agrawal,0,near_miss
+संतोष चंद्राकर,Santosh Gupta,0,diff_last_same_first
+Hemant Thakur,Thakur Hemant,1,order
+Rakesh मिश्रा,Anita Mishra,0,diff_first_same_last
+महेश अग्रवाल,Rajesh Sinha,0,different
+दिनेश गुप्ता,Kavita Tiwari,0,different
+Manoj Yadav,Yadav Manoj,1,order
+दीपक अग्रवाल,Deepak Mishra,0,diff_last_same_first
+Mahesh Thakur,M. Thakur,1,initial
+संतोष निषाद,Santosh Nishad,1,script
+Mrs. Sunita Verma,Sunita Varma,1,honorific
+Mahesh साहू,Dinesh Sahu,0,near_miss
+Deepak Banjare,Dinesh Banjare,0,near_miss
+Pooja Tiwari,Puja Tiwary,1,spelling
+Rakesh Sharma,Sharma Rakesh,1,order
+Santosh Nishad,Nishad Santosh,1,order
+Santosh Yadav,Santosh Yadav,1,spelling
+Sunil Banjare,S. Banjare,1,initial
+पूजा अग्रवाल,Santosh Gupta,0,different
+दिनेश कश्यप,Shyam Chandrakar,0,different
+महेश बंजारे,Rakesh Banjare,0,diff_first_same_last
+कमला यादव,Kamla Gupta,0,diff_last_same_first
+Mohan Sharma,Manoj Sharma,0,near_miss
+Mrs. Geeta Nishad,Gita Nishad,1,honorific
+Mahesh Gupta,Mahesh Gupta,1,suffix
+Hemant तिवारी,Hemraj Tiwary,0,near_miss
+श्री Santosh Yadav,Santosh Yadav,1,honorific
+श्रीमती सुनीता यादव,Sunita Yadav,1,script+honorific
+लक्ष्मी सिन्हा,Lakshmi Dewangan,0,diff_last_same_first
+Mahesh यादव,Dinesh Yadav,0,near_miss
+लक्ष्मी शर्मा,Lakshmi Tiwari,0,diff_last_same_first
+श्याम चंद्राकर,Shyam Chandrakar,1,script
+Kamla साहू,Kamala Mishra,0,diff_last_same_first
+पूजा तिवारी,Puja Tiwary,1,script
+श्रीमती Pooja Thakur,Puja Thakur,1,honorific
+श्रीमती Kamla Dewangan,Kamla Dewangan,1,honorific
+श्री Mahesh Kashyap,Mahesh Kashyap,1,honorific
+Rajesh निषाद,Rakesh Nishad,0,near_miss
+Vijay Agrawal,V. Agarwal,1,initial
+संतोष शर्मा,Mohan Gupta,0,different
+Ramesh सिन्हा,Ramesh Gupta,0,diff_last_same_first
+मोहन Nishad,Mahesh Nishad,0,diff_first_same_last
+मोहन नेताम,Kamala Mishra,0,different
+राजेश चंद्राकर,Rajesh Chandrakar,1,script
+मोहन मिश्रा,Mohan Mishra,1,script
+श्रीमती रेखा साहू,Rekha Saahu,1,script+honorific
+Mrs. Lakshmi Sahu,Lakshmi Saahu,1,honorific
+मोहन तिवारी,Mohan Tiwary,1,script
+सुनीता अग्रवाल,Sunil Agrawal,0,near_miss
+Pooja Netam,P. Netam,1,initial
+Geeta Chandrakar,Gita Chandrakar,1,spelling
+Bhupendra Mishra,Mishra Bhupendra,1,order
+Mr. राजेश तिवारी,Rajesh Tiwary,1,script+honorific
+Anita Sharma,Aneeta Sharma,1,spelling
+Ramesh Gupta,Ramesh Gupta,1,suffix
+Mr. राजेश तिवारी,Rajesh Tiwary,1,script+honorific
+Geeta Yadav,Yadav Gita,1,order
+Kumari Lakshmi Sinha,Lakshmi Sinha,1,honorific
+Hemant मिश्रा,Hemraj Mishra,0,near_miss
+मोहन देवांगन,Mohan Kashyap,0,diff_last_same_first
+Mahesh Netam,Mahesh Netam,1,suffix
+सुनील साहू,Vijay Sinha,0,different
+Shri सुनील कश्यप,Sunil Kashyap,1,script+honorific
+लक्ष्मी साहू,Mohan Sharma,0,different
+Mrs. कमला अग्रवाल,Kamala Agarwal,1,script+honorific
+Rakesh Gupta,Rakesh Gupta,1,spelling
+Kavita मिश्रा,Mohan Mishra,0,diff_first_same_last
+लक्ष्मी चंद्राकर,Mahesh Patel,0,different
+Savitri Sharma,Savitri Sharma,1,spelling
+कविता देवांगन,Kavitha Verma,0,diff_last_same_first
+Mahesh अग्रवाल,Mahesh Chandrakar,0,diff_last_same_first
+संतोष तिवारी,Santosh Sharma,0,diff_last_same_first
+हेमंत ठाकुर,Hemant Thakur,1,script
+Santosh Thakur,Rakesh Thakur,0,diff_first_same_last
+दिनेश Sahu,Kavitha Saahu,0,diff_first_same_last
+Shri भूपेंद्र बंजारे,Bhupendra Banjare,1,script+honorific
+हेमंत यादव,Laxmi Kashyap,0,different
+Pooja अग्रवाल,Shyam Agrawal,0,diff_first_same_last
+Shyam Sahu,Saahu Shyam,1,order
+श्री मोहन वर्मा,Mohan Verma,1,script+honorific
+Sunita Mishra,Sunil Mishra,0,near_miss
+Bhupendra Mishra,Bhupendra Mishra,1,spelling
+Savitri Sahu,Savitri Saahu,1,spelling
+अनीता तिवारी,Priya Mishra,0,different
+Rajesh पटेल,Priya Patel,0,diff_first_same_last
+रेखा सिन्हा,Anita Sharma,0,different
+विजय बंजारे,Ayush Banjare,0,diff_first_same_last
+Mr. श्याम यादव,Shyam Yadav,1,script+honorific
+Hemant यादव,Hemraj Yadav,0,near_miss
+Pooja Agrawal,Puja Agarwal,1,spelling
+Mahesh बंजारे,Dinesh Banjare,0,near_miss
+Mahesh Verma,Mahesh Verma,1,suffix
+Vijay Kashyap,Ajay Kashyap,0,near_miss
+Dinesh बंजारे,Dinesh Yadav,0,diff_last_same_first
+मोहन तिवारी,Mohan Tiwary,1,script
+कमला तिवारी,Rekha Tiwary,0,diff_first_same_last
+Shri श्याम देवांगन,Shyam Devangan,1,script+honorific
+Sunita वर्मा,Sunil Verma,0,near_miss
+प्रिया ठाकुर,Kamla Tiwari,0,different
+सुनीता शर्मा,Hemant Sharma,0,diff_first_same_last
+श्याम देवांगन,Shyam Dewangan,1,script
+दिनेश यादव,Dinesh Dewangan,0,diff_last_same_first
+Hemant Netam,Hemant Netam,1,suffix
+Sunil Mishra,Mishra Sunil,1,order
+लक्ष्मी शर्मा,Rajesh Sharma,0,diff_first_same_last
+Mr. Sunil Kashyap,Sunil Kashyap,1,honorific
+Lakshmi सिन्हा,Rekha Sinha,0,diff_first_same_last
+कविता देवांगन,Ayush Dewangan,0,diff_first_same_last
+सावित्री गुप्ता,Suneeta Kashyap,0,different
+प्रिया देवी सिन्हा,Priya Sinha,1,suffix
+संतोष चंद्राकर,Rajesh Kashyap,0,different
+Shyam Patel,Shyam Patel,1,suffix
+श्री Manoj Chandrakar,Manoj Chandrakar,1,honorific
+Bhupendra Sinha,Sinha Bhupendra,1,order
+दिनेश पटेल,Kavitha Thakur,0,different
+Savitri Banjare,S. Banjare,1,initial
+Rekha Verma,Verma Rekha,1,order
+Mohan Agrawal,M. Agarwal,1,initial
+Rajesh Sahu,R. Sahu,1,initial
+रेखा गुप्ता,Sunita Verma,0,different
+सावित्री देवी शर्मा,Savitri Sharma,1,suffix
+Sunita Agrawal,Suneeta Agarwal,1,spelling
+Bhupendra Mishra,Mishra Bhupendra,1,order
+Ayush Tiwari,Aayush Tiwary,1,spelling
+पूजा चंद्राकर,Deepak Tiwari,0,different
+Manoj कश्यप,Manoj Verma,0,diff_last_same_first
+Santosh तिवारी,Santosh Yadav,0,diff_last_same_first
+Pooja निषाद,Puja Kashyap,0,diff_last_same_first
+अनीता पटेल,Anita Patel,1,script
+Priya Patel,Patel Priya,1,order
+दीपक मिश्रा,Manoj Nishad,0,different
+विजय गुप्ता,Geeta Gupta,0,different
+Geeta Gupta,Rekha Gupta,0,near_miss
+Mohan Netam,Netam Mohan,1,order
+Kavita Bai Kashyap,Kavita Kashyap,1,suffix
+Mohan पटेल,Bhupendra Patel,0,diff_first_same_last
+कमला यादव,Kamla Yadav,1,script
+Rakesh सिन्हा,Rakesh Nishad,0,diff_last_same_first
+Kavita Thakur,K. Thakur,1,initial
+श्री Rajesh Netam,Rajesh Netam,1,honorific
+श्री Mahesh Yadav,Mahesh Yadav,1,honorific
+कमला साहू,Bhupendra Kashyap,0,different
+सुनीता Sinha,Sunil Sinha,0,near_miss
+Priya Agrawal,Priya Agarwal,1,spelling
+Sunita Tiwari,Tiwary Sunita,1,order
+Geeta शर्मा,Gita Agarwal,0,diff_last_same_first
+सावित्री निषाद,Savitri Nishad,1,script
+लक्ष्मी देवांगन,Dinesh Devangan,0,diff_first_same_last
+Ayush Yadav,Yadav Aayush,1,order
+Manoj Verma,Manoj Verma,1,suffix
+रेखा मिश्रा,Rekha Verma,0,diff_last_same_first
+Mr. मनोज गुप्ता,Manoj Gupta,1,script+honorific
+Kavita Banjare,K. Banjare,1,initial
+सुनील Sharma,Deepak Sharma,0,diff_first_same_last
+राकेश कश्यप,Rakesh Verma,0,different
+सावित्री चंद्राकर,Santosh Verma,0,different
+श्रीमती कमला बंजारे,Kamala Banjare,1,script+honorific
+श्री Rakesh Agrawal,Rakesh Agrawal,1,honorific
+Santosh Gupta,Shyam Gupta,0,near_miss
+Kamla साहू,Kavita Saahu,0,near_miss
+Rekha कश्यप,Rekha Tiwary,0,diff_last_same_first
+श्री Deepak Nishad,Dipak Nishad,1,honorific
+आयुष वर्मा,Aayush Varma,1,script
+Kamla Thakur,Thakur Kamala,1,order
+Mohan Sahu,Manoj Saahu,0,near_miss
+Anita Chandrakar,Kavita Chandrakar,0,near_miss
+Ramesh Mishra,R. Mishra,1,initial
+आयुष शर्मा,Ayush Sharma,1,script
+Smt. Kavita Agrawal,Kavita Agarwal,1,honorific
+Ramesh Mishra,Hemant Mishra,0,diff_first_same_last
+Rakesh Kashyap,Kashyap Rakesh,1,order
+Santosh यादव,Mahesh Yadav,0,diff_first_same_last
+Deepak Kashyap,Dipak Kashyap,1,suffix
+Rakesh मिश्रा,Vijay Mishra,0,diff_first_same_last
+Santosh Thakur,Thakur Santosh,1,order
+रमेश निषाद,Dipak Nishad,0,diff_first_same_last
+Savitri Agrawal,S. Agrawal,1,initial
+Ramesh Sahu,R. Sahu,1,initial
+श्री Ramesh Sahu,Ramesh Saahu,1,honorific
+Dinesh Chandrakar,Manoj Chandrakar,0,diff_first_same_last
+Mr. सुनील यादव,Sunil Yadav,1,script+honorific
+श्री राकेश ठाकुर,Rakesh Thakur,1,script+honorific
+Sunita Dewangan,Sunil Devangan,0,near_miss
+सुनीता यादव,Suneeta Thakur,0,diff_last_same_first
+Priya Netam,P. Netam,1,initial
+Santosh बंजारे,Santosh Thakur,0,diff_last_same_first
+Manoj अग्रवाल,Manoj Thakur,0,diff_last_same_first
+Santosh कश्यप,Shyam Kashyap,0,near_miss
+कमला वर्मा,Vijay Varma,0,diff_first_same_last
+राजेश पटेल,Rajesh Thakur,0,diff_last_same_first
+Lakshmi Agrawal,Laxmi Agarwal,1,spelling
+Manoj Nishad,Manoj Nishad,1,spelling
+Santosh Yadav,Gita Yadav,0,diff_first_same_last
+गीता बाई यादव,Gita Yadav,1,suffix
+Hemant Thakur,Hemraj Thakur,0,near_miss
+विजय देवांगन,Vijay Dewangan,1,script
+Hemant Netam,Priya Netam,0,diff_first_same_last
+लक्ष्मी कश्यप,Hemant Kashyap,0,diff_first_same_last
+Kamla शर्मा,Kamla Nishad,0,diff_last_same_first
+Vijay Patel,V. Patel,1,initial
+Bhupendra Sharma,Sharma Bhupendra,1,order
+Kumari Kavita Agrawal,Kavitha Agarwal,1,honorific
+Rekha Patel,Patel Rekha,1,order
+Shri रमेश निषाद,Ramesh Nishad,1,script+honorific
+Sunita Netam,Suneeta Netam,1,spelling
+श्री Shyam Gupta,Shyam Gupta,1,honorific
+प्रिया चंद्राकर,Priya Chandrakar,1,script
+Bhupendra यादव,Bhupendra Sinha,0,diff_last_same_first
+राकेश Chandrakar,Aayush Chandrakar,0,diff_first_same_last
+गीता शर्मा,Gita Verma,0,different
+Kavita Tiwari,Tiwary Kavita,1,order
+Santosh Mishra,S. Mishra,1,initial
+राकेश Mishra,Kavita Mishra,0,diff_first_same_last
+महेश चंद्राकर,Rakesh Chandrakar,0,diff_first_same_last
+Rajesh Gupta,R. Gupta,1,initial
+Bhupendra Gupta,Gupta Bhupendra,1,order
+Manoj Gupta,M. Gupta,1,initial
+Anita चंद्राकर,Aneeta Netam,0,diff_last_same_first
+Manoj साहू,Manoj Verma,0,diff_last_same_first
+आयुष साहू,Ayush Banjare,0,diff_last_same_first
+सुनील मिश्रा,Dinesh Mishra,0,diff_first_same_last
+Savitri नेताम,Rakesh Netam,0,diff_first_same_last
+दीपक गुप्ता,Rakesh Thakur,0,different
+Dinesh Kashyap,Dinesh Kashyap,1,spelling
+Shyam Gupta,S. Gupta,1,initial
+Santosh निषाद,Shyam Nishad,0,near_miss
+Mohan चंद्राकर,Priya Chandrakar,0,diff_first_same_last
+Mohan Yadav,Sunita Yadav,0,diff_first_same_last
+Manoj Netam,Geeta Netam,0,diff_first_same_last
+Kavita यादव,Kavitha Kashyap,0,diff_last_same_first
+Vijay पटेल,Vijay Agarwal,0,diff_last_same_first
+Rajesh Sharma,Rakesh Sharma,0,near_miss
+Manoj Verma,Verma Manoj,1,order
+पूजा कश्यप,Laxmi Kashyap,0,diff_first_same_last
+Priya निषाद,Priya Verma,0,diff_last_same_first
+सुनील पटेल,Sunil Patel,1,script
+गीता नेताम,Mahesh Nishad,0,different
+Bhupendra Patel,Bhupendra Patel,1,spelling
+Bhupendra Dewangan,Devangan Bhupendra,1,order
+Pooja चंद्राकर,Pooja Patel,0,diff_last_same_first
+गीता शर्मा,Vijay Mishra,0,different
+Shyam Nishad,Shyam Nishad,1,suffix
+दिनेश पटेल,Ramesh Devangan,0,different
+Santosh Netam,Netam Santosh,1,order
+प्रिया साहू,Priya Mishra,0,different
+सावित्री पटेल,Pooja Banjare,0,different
+आयुष निषाद,Ramesh Tiwari,0,different
+Smt. सुनीता वर्मा,Suneeta Verma,1,script+honorific
+Dinesh पटेल,Dinesh Chandrakar,0,diff_last_same_first
+Mohan Tiwari,Manoj Tiwary,0,near_miss
+राकेश वर्मा,Dinesh Tiwary,0,different
+Vijay Gupta,Ajay Gupta,0,near_miss
+Mahesh Nishad,Dinesh Nishad,0,near_miss
+Shri विजय वर्मा,Vijay Verma,1,script+honorific
+Kumari गीता कश्यप,Gita Kashyap,1,script+honorific
+Mr. राजेश निषाद,Rajesh Nishad,1,script+honorific
+अनीता तिवारी,Geeta Mishra,0,different
+सावित्री Verma,Priya Verma,0,diff_first_same_last
+संतोष मिश्रा,Santosh Mishra,1,script
+सावित्री चंद्राकर,Suneeta Tiwari,0,different
+Rakesh Sharma,Rakesh Sharma,1,suffix
+Savitri Thakur,Thakur Savitri,1,order
+रेखा वर्मा,Rekha Devangan,0,diff_last_same_first
+रमेश मिश्रा,Ramesh Verma,0,diff_last_same_first
+Sunita Devi Thakur,Sunita Thakur,1,suffix
+Shri Ramesh Sinha,Ramesh Sinha,1,honorific
+Shyam निषाद,Shyam Chandrakar,0,diff_last_same_first
+Sunil Sahu,Saahu Sunil,1,order
+Rajesh Kashyap,Rajesh Kashyap,1,spelling
+Shri Deepak Verma,Dipak Verma,1,honorific
+Vijay Netam,Ajay Netam,0,near_miss
+Anita पटेल,Laxmi Patel,0,diff_first_same_last
+Mr. Dinesh Chandrakar,Dinesh Chandrakar,1,honorific
+Bhupendra देवांगन,Bhupendra Chandrakar,0,diff_last_same_first
+Kumari Lakshmi Mishra,Lakshmi Mishra,1,honorific
+गीता देवांगन,Kamla Devangan,0,diff_first_same_last
+राकेश देवांगन,Vijay Tiwari,0,different
+Vijay वर्मा,Vijay Mishra,0,diff_last_same_first
+Ayush Yadav,Aayush Yadav,1,spelling
+Hemant Netam,Hemant Netam,1,spelling
+Vijay Patel,Vijay Patel,1,spelling
+दिनेश बंजारे,Dinesh Banjare,1,script
+Deepak Thakur,Dinesh Thakur,0,near_miss
+Rajesh Nishad,Nishad Rajesh,1,order
+श्री मनोज तिवारी,Manoj Tiwari,1,script+honorific
+Sunita कश्यप,Suneeta Mishra,0,diff_last_same_first
+संतोष अग्रवाल,Dinesh Gupta,0,different
+Shri Bhupendra Yadav,Bhupendra Yadav,1,honorific
+श्री संतोष अग्रवाल,Santosh Agarwal,1,script+honorific
+Rakesh वर्मा,Rakesh Thakur,0,diff_last_same_first
+लक्ष्मी चंद्राकर,Hemant Tiwary,0,different
+दिनेश देवांगन,Dinesh Thakur,0,diff_last_same_first
+गीता चंद्राकर,Mahesh Thakur,0,different
+श्रीमती पूजा साहू,Puja Sahu,1,script+honorific
+राजेश नेताम,Rajesh Netam,1,script
+Pooja Dewangan,P. Devangan,1,initial
+दीपक वर्मा,Dipak Sharma,0,diff_last_same_first
+Sunita Mishra,S. Mishra,1,initial
+Geeta Banjare,Kavitha Banjare,0,diff_first_same_last
+Rajesh Verma,Rakesh Varma,0,near_miss
+Priya Sahu,Saahu Priya,1,order
+Rekha निषाद,Rekha Agrawal,0,diff_last_same_first
+राकेश तिवारी,Rakesh Sinha,0,diff_last_same_first
+आयुष ठाकुर,Aayush Thakur,1,script
+Rekha Sharma,Sharma Rekha,1,order
+Dinesh पटेल,Dinesh Sinha,0,diff_last_same_first
+Shri विजय बंजारे,Vijay Banjare,1,script+honorific
+Shri Manoj Mishra,Manoj Mishra,1,honorific
+राकेश ठाकुर,Rakesh Thakur,1,script
+Sunita Verma,Sunil Verma,0,near_miss
+Ramesh Patel,R. Patel,1,initial
+Savitri Chandrakar,Chandrakar Savitri,1,order
+Ramesh चंद्राकर,Rakesh Chandrakar,0,near_miss
+Manoj Nishad,Manoj Nishad,1,spelling
+Mrs. Lakshmi Verma,Laxmi Varma,1,honorific
+Sunil नेताम,Hemant Netam,0,diff_first_same_last
+Shyam Gupta,Shyam Gupta,1,spelling
+Deepak Yadav,Dinesh Yadav,0,near_miss
+अनीता चंद्राकर,Shyam Varma,0,different
+Mr. संतोष अग्रवाल,Santosh Agarwal,1,script+honorific
+Shri Vijay Sharma,Vijay Sharma,1,honorific
+Geeta Sahu,G. Sahu,1,initial
+श्रीमती कमला सिन्हा,Kamala Sinha,1,script+honorific
+श्याम वर्मा,Savitri Mishra,0,different
+Ramesh Banjare,Ramesh Banjare,1,suffix
+Deepak वर्मा,Dinesh Varma,0,near_miss
+Kamla मिश्रा,Kamla Kashyap,0,diff_last_same_first
+Hemant Agrawal,Hemant Agarwal,1,spelling
+दिनेश साहू,Dinesh Saahu,1,script
+Mahesh Gupta,Ayush Gupta,0,diff_first_same_last
+Shri दीपक सिन्हा,Dipak Sinha,1,script+honorific
+रेखा साहू,Rekha Sahu,1,script
+Deepak बंजारे,Dipak Dewangan,0,diff_last_same_first
+राकेश नेताम,Rakesh Netam,1,script
+लक्ष्मी Chandrakar,Manoj Chandrakar,0,diff_first_same_last
+Hemant शर्मा,Hemraj Sharma,0,near_miss
+राकेश Sharma,Vijay Sharma,0,diff_first_same_last
+Manoj Netam,Manoj Netam,1,spelling
+श्रीमती Priya Gupta,Priya Gupta,1,honorific
+आयुष Dewangan,Hemant Devangan,0,diff_first_same_last
+Ramesh कश्यप,Rakesh Kashyap,0,near_miss
+Lakshmi Patel,Pooja Patel,0,diff_first_same_last
+प्रिया सिन्हा,Dinesh Chandrakar,0,different
+कमला देवांगन,Pooja Gupta,0,different
+Ramesh Netam,R. Netam,1,initial
+सावित्री निषाद,Savitri Nishad,1,script
+Kamla Thakur,Anita Thakur,0,diff_first_same_last
+Shyam मिश्रा,Mahesh Mishra,0,diff_first_same_last
+पूजा यादव,Puja Sinha,0,diff_last_same_first
+श्री सुनील अग्रवाल,Sunil Agrawal,1,script+honorific
+Bhupendra Thakur,Anita Thakur,0,diff_first_same_last
+आयुष पटेल,Aayush Thakur,0,diff_last_same_first
+Rekha Agrawal,R. Agrawal,1,initial
+Sunita ठाकुर,Lakshmi Thakur,0,diff_first_same_last
+Manoj Kashyap,Kashyap Manoj,1,order
+Mahesh Gupta,Gupta Mahesh,1,order
+गीता शर्मा,Puja Agrawal,0,different
+Lakshmi Chandrakar,Shyam Chandrakar,0,diff_first_same_last
+हेमंत शर्मा,Ayush Chandrakar,0,different
+संतोष मिश्रा,Santosh Banjare,0,diff_last_same_first
+Geeta Dewangan,Gita Devangan,1,spelling
+लक्ष्मी यादव,Sunil Saahu,0,different
+Sunita वर्मा,Sunita Nishad,0,diff_last_same_first
+रेखा चंद्राकर,Dipak Saahu,0,different
+Mrs. कविता सिन्हा,Kavita Sinha,1,script+honorific
+Ramesh Sahu,R. Sahu,1,initial
+Shri Rakesh Kashyap,Rakesh Kashyap,1,honorific
+Kumari Anita Banjare,Anita Banjare,1,honorific
+Ramesh Chandrakar,Rakesh Chandrakar,0,near_miss
+पूजा सिन्हा,Rakesh Sinha,0,diff_first_same_last
+Deepak यादव,Deepak Patel,0,diff_last_same_first
+Priya Kashyap,Priya Kashyap,1,spelling
+Ramesh Netam,R. Netam,1,initial
+महेश कश्यप,Puja Saahu,0,different
+सुनीता गुप्ता,Sunil Gupta,0,near_miss
+अनीता वर्मा,Ramesh Gupta,0,different
+सुनीता Thakur,Sunil Thakur,0,near_miss
+Priya Agrawal,Priya Agarwal,1,spelling
+कविता Dewangan,Aayush Devangan,0,diff_first_same_last
+Kumari Priya Agrawal,Priya Agarwal,1,honorific
+हेमंत अग्रवाल,Bhupendra Yadav,0,different
+Manoj Nishad,Manoj Nishad,1,suffix
+Mohan Gupta,Mohan Gupta,1,spelling
+Shyam Agrawal,Shyam Agarwal,1,suffix
+Sunita साहू,Sunil Sahu,0,near_miss
+Anita Patel,Patel Aneeta,1,order
+Mr. राजेश ठाकुर,Rajesh Thakur,1,script+honorific
+मोहन चंद्राकर,Mohan Banjare,0,diff_last_same_first
+रेखा बंजारे,Dinesh Gupta,0,different
+प्रिया यादव,Anita Thakur,0,different
+Pooja Bai Gupta,Puja Gupta,1,suffix
+Sunil Thakur,Sunil Thakur,1,spelling
+श्री मनोज बंजारे,Manoj Banjare,1,script+honorific
+Hemant यादव,Mohan Yadav,0,diff_first_same_last
+Smt. कमला साहू,Kamala Sahu,1,script+honorific
+Vijay देवांगन,Ajay Dewangan,0,near_miss
+Lakshmi Bai Banjare,Lakshmi Banjare,1,suffix
+Anita Yadav,A. Yadav,1,initial
+Deepak Tiwari,Deepak Tiwari,1,suffix
+Mohan नेताम,Manoj Netam,0,near_miss
+Mohan Nishad,M. Nishad,1,initial
+Mahesh Tiwari,Mahesh Tiwary,1,suffix
+Vijay Yadav,Vijay Yadav,1,spelling
+Mohan Banjare,Banjare Mohan,1,order
+Manoj Kashyap,Manoj Kashyap,1,spelling
+आयुष निषाद,Kavita Gupta,0,different
+कमला तिवारी,Kamala Sinha,0,diff_last_same_first
+Kamla Tiwari,Kamala Tiwary,1,spelling
+Bhupendra Thakur,B. Thakur,1,initial
+सुनील गुप्ता,Sunil Gupta,1,script
+Anita Sahu,Aneeta Saahu,1,spelling
+Anita Bai Sahu,Aneeta Sahu,1,suffix
+अनीता शर्मा,Anita Sharma,1,script
+Mahesh Patel,M. Patel,1,initial
+भूपेंद्र साहू,Mohan Varma,0,different
+Mr. Deepak Netam,Deepak Netam,1,honorific
+Manoj Nishad,Manoj Nishad,1,spelling
+Rakesh Chandrakar,Rakesh Chandrakar,1,spelling
+Dinesh साहू,Rakesh Saahu,0,diff_first_same_last
+Geeta यादव,Rekha Yadav,0,near_miss
+Mr. Ramesh Kashyap,Ramesh Kashyap,1,honorific
+Mrs. Sunita Thakur,Suneeta Thakur,1,honorific
+कविता वर्मा,Kamala Sinha,0,different
+Mr. Ramesh Yadav,Ramesh Yadav,1,honorific
+भूपेंद्र Agrawal,Lakshmi Agrawal,0,diff_first_same_last
+महेश गुप्ता,Mahesh Mishra,0,diff_last_same_first
+राजेश यादव,Dinesh Tiwary,0,different
+Rajesh कश्यप,Rakesh Kashyap,0,near_miss
+महेश Kashyap,Dinesh Kashyap,0,diff_first_same_last
+विजय साहू,Rakesh Saahu,0,diff_first_same_last
+Deepak Yadav,Dipak Yadav,1,suffix
+महेश मिश्रा,Mahesh Devangan,0,diff_last_same_first
+Pooja सिन्हा,Pooja Nishad,0,diff_last_same_first
+Shri दिनेश वर्मा,Dinesh Varma,1,script+honorific
+सुनीता Sinha,Sunil Sinha,0,near_miss
+सुनीता Bai देवांगन,Suneeta Dewangan,1,suffix
+मनोज देवांगन,Manoj Devangan,1,script
+Sunil Netam,Sunil Netam,1,spelling
+Ayush Verma,A. Verma,1,initial
+Pooja कश्यप,Puja Yadav,0,diff_last_same_first
+Rakesh Patel,Rakesh Patel,1,spelling
+भूपेंद्र शर्मा,Rekha Sharma,0,diff_first_same_last
+Vijay Gupta,Ajay Gupta,0,near_miss
+Pooja Gupta,Puja Gupta,1,spelling
+श्रीमती पूजा देवांगन,Pooja Devangan,1,script+honorific
+Sunita सिन्हा,Sunita Chandrakar,0,diff_last_same_first
+Mr. विजय यादव,Vijay Yadav,1,script+honorific
+रेखा पटेल,Rekha Tiwary,0,diff_last_same_first
+Sunita वर्मा,Suneeta Chandrakar,0,diff_last_same_first
+Sunil देवांगन,Sunil Patel,0,diff_last_same_first
+राजेश अग्रवाल,Rajesh Banjare,0,diff_last_same_first
+Dinesh Agrawal,Rekha Agarwal,0,diff_first_same_last
+Mahesh Patel,Mahesh Patel,1,suffix
+Geeta अग्रवाल,Rekha Agrawal,0,near_miss
+Shri राकेश गुप्ता,Rakesh Gupta,1,script+honorific
+Deepak Sharma,Sharma Dipak,1,order
+Kamla चंद्राकर,Kavita Chandrakar,0,near_miss
+Smt. सुनीता तिवारी,Suneeta Tiwary,1,script+honorific
+Vijay Gupta,Ajay Gupta,0,near_miss
+Kavita नेताम,Kavita Verma,0,diff_last_same_first
+रमेश वर्मा,Rakesh Nishad,0,different
+कविता यादव,Kavita Yadav,1,script
+Ayush Kashyap,Aayush Kashyap,1,spelling
+Sunil Thakur,Sunil Thakur,1,spelling
+Mrs. Kamla Dewangan,Kamala Devangan,1,honorific
+Mohan Yadav,Mohan Yadav,1,suffix
+रमेश निषाद,Ramesh Kashyap,0,diff_last_same_first
+Rajesh यादव,Rajesh Sharma,0,diff_last_same_first
+Santosh Chandrakar,Shyam Chandrakar,0,near_miss
+Geeta Gupta,Aneeta Gupta,0,diff_first_same_last
+सुनील शर्मा,Sunil Chandrakar,0,different
+प्रिया सिन्हा,Ayush Sinha,0,diff_first_same_last
+श्याम नेताम,Hemant Mishra,0,different
+Shri विजय चंद्राकर,Vijay Chandrakar,1,script+honorific
+Sunil Banjare,S. Banjare,1,initial
+दीपक सिन्हा,Dipak Sinha,1,script
+Hemant Sinha,H. Sinha,1,initial
+सुनील कश्यप,Sunil Kashyap,1,script
+Mahesh नेताम,Dinesh Netam,0,near_miss
+विजय साहू,Vijay Sahu,1,script
+Rekha Gupta,Gupta Rekha,1,order
+लक्ष्मी देवांगन,Laxmi Dewangan,1,script
+Hemant Agrawal,Hemant Agarwal,1,spelling
+अनीता वर्मा,Aneeta Varma,1,script
+Ayush Sinha,Aayush Sinha,1,spelling
+Mohan Gupta,M. Gupta,1,initial
+Smt. Kavita Sinha,Kavitha Sinha,1,honorific
+Priya सिन्हा,Priya Dewangan,0,diff_last_same_first
+Shri Sunil Banjare,Sunil Banjare,1,honorific
+सुनीता साहू,Sunil Saahu,0,near_miss
+विजय चंद्राकर,Vijay Chandrakar,1,script
+Mr. रमेश चंद्राकर,Ramesh Chandrakar,1,script+honorific
+Shyam Sharma,Shyam Sharma,1,spelling
+लक्ष्मी साहू,Rajesh Saahu,0,different
+राजेश यादव,Santosh Patel,0,different
+राकेश तिवारी,Rakesh Thakur,0,diff_last_same_first
+सुनीता तिवारी,Sunita Tiwary,1,script
+Dinesh Nishad,Nishad Dinesh,1,order
+दिनेश चंद्राकर,Kamla Chandrakar,0,different
+Kamla Tiwari,Tiwary Kamala,1,order
+राकेश साहू,Mahesh Yadav,0,different
+सुनील वर्मा,Geeta Yadav,0,different
+कविता पटेल,Kavitha Patel,1,script
+कविता निषाद,Dinesh Nishad,0,diff_first_same_last
+श्रीमती सावित्री सिन्हा,Savitri Sinha,1,script+honorific
+Shri Ramesh Netam,Ramesh Netam,1,honorific
+मनोज ठाकुर,Aneeta Verma,0,different
+Priya Bai Gupta,Priya Gupta,1,suffix
+Bhupendra निषाद,Bhupendra Tiwary,0,diff_last_same_first
+दीपक साहू,Deepak Sahu,1,script
+श्री महेश तिवारी,Mahesh Tiwary,1,script+honorific
+Ramesh Gupta,Ramesh Gupta,1,spelling
+Rajesh Nishad,Nishad Rajesh,1,order
+पूजा बाई अग्रवाल,Puja Agarwal,1,suffix
+Geeta यादव,Geeta Gupta,0,diff_last_same_first
+Dinesh Agrawal,D. Agarwal,1,initial
+सुनील पटेल,Sunita Verma,0,different
+श्री भूपेंद्र पटेल,Bhupendra Patel,1,script+honorific
+Kamla Bai Mishra,Kamala Mishra,1,suffix
+Anita Agrawal,Agarwal Anita,1,order
+सुनीता यादव,Sunil Yadav,0,near_miss
+संतोष ठाकुर,Mahesh Patel,0,different
+सुनील चंद्राकर,Sunil Gupta,0,different
+Smt. Kavita Sharma,Kavitha Sharma,1,honorific
+अनीता गुप्ता,Laxmi Gupta,0,diff_first_same_last
+कमला बंजारे,Santosh Saahu,0,different
+Lakshmi Sahu,L. Saahu,1,initial
+संतोष यादव,Santosh Yadav,1,script
+Lakshmi Netam,Laxmi Netam,1,spelling
+Deepak Sahu,D. Sahu,1,initial
+Hemant Netam,Pooja Netam,0,diff_first_same_last
+Rajesh Patel,Rajesh Patel,1,spelling
+कविता निषाद,Kavita Nishad,1,script
+Geeta शर्मा,Gita Verma,0,diff_last_same_first
+Manoj Mishra,Kavita Mishra,0,diff_first_same_last
+प्रिया शर्मा,Geeta Netam,0,different
+श्री आयुष वर्मा,Ayush Verma,1,script+honorific
+राकेश कश्यप,Dipak Patel,0,different
+पूजा बंजारे,Ayush Chandrakar,0,different
+Vijay Banjare,Banjare Vijay,1,order
+Mr. Bhupendra Kashyap,Bhupendra Kashyap,1,honorific
+रेखा नेताम,Rekha Yadav,0,diff_last_same_first
+Rajesh Thakur,Rakesh Thakur,0,near_miss
+विजय साहू,Vijay Sahu,1,script
+मनोज निषाद,Manoj Agrawal,0,diff_last_same_first
+अनीता Devi गुप्ता,Aneeta Gupta,1,suffix
+Shyam Sahu,Shyam Saahu,1,spelling
+Rekha Netam,Netam Rekha,1,order
+कमला यादव,Shyam Patel,0,different
+Vijay पटेल,Vijay Thakur,0,diff_last_same_first
+Kamla गुप्ता,Kamla Dewangan,0,diff_last_same_first
+Savitri ठाकुर,Savitri Kashyap,0,diff_last_same_first
+हेमंत अग्रवाल,Hemant Banjare,0,diff_last_same_first
+Vijay Netam,V. Netam,1,initial
+Kumari पूजा तिवारी,Pooja Tiwari,1,script+honorific
+Geeta Devi Dewangan,Geeta Dewangan,1,suffix
+Rajesh Kashyap,Rajesh Kashyap,1,spelling
+Kamla Tiwari,K. Tiwary,1,initial
+Santosh Yadav,Santosh Yadav,1,spelling
+Hemant Chandrakar,Savitri Chandrakar,0,diff_first_same_last
+आयुष चंद्राकर,Ayush Chandrakar,1,script
+Anita Yadav,Yadav Aneeta,1,order
+अनीता देवी पटेल,Anita Patel,1,suffix
+Hemant Yadav,H. Yadav,1,initial
+दीपक देवांगन,Priya Yadav,0,different
+राकेश शर्मा,Aayush Patel,0,different
+रमेश कश्यप,Ramesh Netam,0,diff_last_same_first
+अनीता नेताम,Dinesh Nishad,0,different
+सावित्री Sinha,Rekha Sinha,0,diff_first_same_last
+Mr. रमेश देवांगन,Ramesh Devangan,1,script+honorific
+Sunita Thakur,Sunil Thakur,0,near_miss
+Mrs. पूजा अग्रवाल,Puja Agrawal,1,script+honorific
+Santosh Sharma,Santosh Sharma,1,spelling
+दिनेश Netam,Rajesh Netam,0,diff_first_same_last
+कमला गुप्ता,Priya Nishad,0,different
+गीता देवांगन,Geeta Nishad,0,diff_last_same_first
+Kavita Banjare,Priya Banjare,0,diff_first_same_last
+रेखा चंद्राकर,Priya Sahu,0,different
+Ramesh Yadav,Ramesh Yadav,1,spelling
+Shyam Banjare,Shyam Banjare,1,spelling
+मोहन सिन्हा,Mohan Sinha,1,script
+Geeta Sahu,Gita Saahu,1,spelling
+श्री Deepak Yadav,Dipak Yadav,1,honorific
+रेखा Netam,Priya Netam,0,diff_first_same_last
+गीता देवांगन,Ramesh Mishra,0,different
+Santosh तिवारी,Shyam Tiwari,0,near_miss
+Hemant Tiwari,Tiwary Hemant,1,order
+Deepak ठाकुर,Dinesh Thakur,0,near_miss
+राजेश पटेल,Suneeta Yadav,0,different
+रेखा Sinha,Santosh Sinha,0,diff_first_same_last
+महेश निषाद,Mahesh Agarwal,0,diff_last_same_first
+मोहन साहू,Mohan Gupta,0,diff_last_same_first
+संतोष Dewangan,Mahesh Devangan,0,diff_first_same_last
+महेश गुप्ता,Rakesh Gupta,0,diff_first_same_last
+श्याम तिवारी,Kavita Yadav,0,different
+भूपेंद्र Kashyap,Aayush Kashyap,0,diff_first_same_last
+श्री हेमंत ठाकुर,Hemant Thakur,1,script+honorific
+सावित्री कश्यप,Savitri Netam,0,diff_last_same_first
+Lakshmi Tiwari,Tiwary Laxmi,1,order
+Ramesh Netam,Rakesh Netam,0,near_miss
+Kavita Yadav,Yadav Kavita,1,order
+Vijay Dewangan,Lakshmi Dewangan,0,diff_first_same_last
+विजय निषाद,Vijay Nishad,1,script
+श्री मनोज साहू,Manoj Sahu,1,script+honorific
+Mr. Mohan Agrawal,Mohan Agrawal,1,honorific
+Sunita Netam,Shyam Netam,0,diff_first_same_last
+Dinesh Banjare,Banjare Dinesh,1,order
+Kumari कविता साहू,Kavitha Sahu,1,script+honorific
+श्याम नेताम,Kamala Netam,0,diff_first_same_last
+सावित्री वर्मा,Savitri Netam,0,diff_last_same_first
+गीता नेताम,Santosh Gupta,0,different
+संतोष कश्यप,Rajesh Agrawal,0,different
+पूजा मिश्रा,Kavitha Patel,0,different
+भूपेंद्र Yadav,Mohan Yadav,0,diff_first_same_last
+Bhupendra Kashyap,Kashyap Bhupendra,1,order
+संतोष नेताम,Santosh Netam,1,script
+Ramesh शर्मा,Rakesh Sharma,0,near_miss
+राकेश अग्रवाल,Rakesh Netam,0,diff_last_same_first
+दीपक मिश्रा,Manoj Chandrakar,0,different
+Hemant Dewangan,Hemant Devangan,1,suffix
+विजय नेताम,Santosh Banjare,0,different
+Ramesh Thakur,Ramesh Thakur,1,suffix
+Shyam Gupta,Gupta Shyam,1,order
