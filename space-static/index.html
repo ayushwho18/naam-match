@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>naam-match: Hindi ↔ English name matching</title>
+<meta name="description" content="Is a Hindi name in a land record the same person as an English name in a loan file? Transparent, explainable matching. Runs in your browser; nothing is sent anywhere.">
+<style>
+:root{--bg:#fafaf7;--card:#fff;--ink:#1c1c1a;--muted:#62625c;--line:#e3e2dc;--accent:#3b3bd1;--ok:#1a7f37;--rev:#9a6700;--no:#cf222e;--soft:#f2f1ec}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1d1d1b;--ink:#ecebe6;--muted:#a3a29b;--line:#33332f;--accent:#8f8fff;--ok:#4ac26b;--rev:#d4a72c;--no:#ff7b72;--soft:#262623}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari","Noto Sans",sans-serif}
+main{max-width:880px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:2rem;margin:0 0 4px;letter-spacing:-.01em}
+.lede{color:var(--muted);margin:0 0 22px}
+.lede b{color:var(--ink)}
+nav{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:20px;overflow-x:auto}
+nav button{background:none;border:0;border-bottom:2px solid transparent;padding:10px 14px;font:inherit;color:var(--muted);cursor:pointer;white-space:nowrap}
+nav button[aria-selected=true]{color:var(--accent);border-color:var(--accent);font-weight:600}
+section[hidden]{display:none}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:620px){.row{grid-template-columns:1fr}}
+label{display:block;font-size:.85rem;color:var(--muted);margin-bottom:4px}
+input,textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+textarea{min-height:130px;resize:vertical}
+input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.btn{margin-top:12px;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:11px 18px;font:inherit;font-weight:600;cursor:pointer}
+.btn.ghost{background:var(--soft);color:var(--ink)}
+.verdict{margin:18px 0 10px;border:2px solid var(--c);border-radius:12px;padding:14px 18px;background:var(--card)}
+.verdict .v{font-size:1.5rem;font-weight:700;color:var(--c)}
+.verdict .s{margin-top:2px}
+.verdict .w{color:var(--muted);font-size:.92rem;margin-top:4px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-weight:600;background:var(--soft)}
+td.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86rem}
+.cap{font-size:.85rem;color:var(--muted);margin:16px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+.chip:hover{border-color:var(--accent)}
+.tag{font-weight:600}
+.tag.Match{color:var(--ok)}.tag.review{color:var(--rev)}.tag.No{color:var(--no)}
+.summary{margin:14px 0 8px;color:var(--muted)}
+.about h3{margin:22px 0 6px}
+.about p,.about li{color:var(--ink)}
+.note{background:var(--soft);border-radius:10px;padding:12px 14px;margin:14px 0}
+footer{margin-top:36px;color:var(--muted);font-size:.88rem}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <h1>naam-match</h1>
+  <p class="lede"><b>Is “आयुष देवांगन” the same person as “Aayush Dewangan”?</b> Transparent Hindi/English name matching for Indian land and loan records. Runs entirely in your browser; nothing you type leaves this page.</p>
+
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-tab="one">Compare two names</button>
+    <button role="tab" aria-selected="false" data-tab="batch">Batch check</button>
+    <button role="tab" aria-selected="false" data-tab="about">About</button>
+  </nav>
+
+  <section id="one">
+    <div class="row">
+      <div><label for="a">Name in record A (Hindi or English)</label><input id="a" value="श्रीमती गीता बाई साहू" autocomplete="off"></div>
+      <div><label for="b">Name in record B</label><input id="b" value="Smt. Geeta Sahu" autocomplete="off"></div>
+    </div>
+    <button class="btn" id="go">Check</button>
+    <div id="result"></div>
+    <div class="cap">Try these (all synthetic)</div>
+    <div class="chips" id="examples"></div>
+  </section>
+
+  <section id="batch" hidden>
+    <p>Paste one pair per line as <code>name A | name B</code>, or load a CSV with two columns. Up to 500 pairs.</p>
+    <textarea id="pairs">आयुष देवांगन | Ayush Dewangan
+कमला देवी निषाद | Kamla Nishad
+Ramesh Kumar Sahu | R. K. Sahu
+सुनीता वर्मा | Sunil Verma
+रमेश यादव | Rakesh Yadav</textarea>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+      <button class="btn" id="run">Run batch</button>
+      <label class="btn ghost" style="margin-top:12px;margin-bottom:0;color:var(--ink)">Load CSV<input type="file" id="csv" accept=".csv,text/csv" hidden></label>
+      <button class="btn ghost" id="dl" hidden>Download results (CSV)</button>
+    </div>
+    <div class="summary" id="sum"></div>
+    <div id="btable"></div>
+  </section>
+
+  <section id="about" class="about" hidden>
+    <h3>Why this exists</h3>
+    <p>Land records in Chhattisgarh and most of Hindi-speaking India are written in Devanagari. Sale deeds, bank files and loan applications are usually in English, and the same person's name is spelt differently in each. A lender's title check, or a property-data platform joining a deed to a land record, breaks right there.</p>
+    <p>naam-match is a small, dependency-free matcher (Python and JavaScript) that <b>explains every decision it makes</b>: transliterate, clean, drop honorifics, fold spelling variants, ignore word order, then score each word.</p>
+    <h3>The design choice</h3>
+    <p>It would rather send a pair to a human than wrongly join two people's property records. Initials (R. K. Sahu) can only ever lead to <b>Send for review</b>, never to an automatic match.</p>
+    <h3>Benchmark (1,000 synthetic pairs)</h3>
+    <div class="tablewrap"><table>
+      <tr><th>Metric</th><th>Value</th></tr>
+      <tr><td>Precision of <b>Match</b></td><td>100.0%</td></tr>
+      <tr><td>Same person auto-matched</td><td>87.4%</td></tr>
+      <tr><td>Same person sent for review</td><td>12.6%</td></tr>
+      <tr><td>Different people wrongly auto-matched</td><td>0.0%</td></tr>
+    </table></div>
+    <div class="note"><b>Read these numbers with care.</b> The data is synthetic and the rules were written by the same person who wrote the generator, so the benchmark is optimistic. Real records add OCR errors, father's or husband's names, clan names used as surnames, and spellings no rule anticipates. It is a heuristic, not a trained model, and not production-ready on its own.</div>
+    <p>All examples are made up. This page runs locally in your browser and stores nothing.</p>
+  </section>
+
+  <footer>Code, tests and benchmark: <a href="https://github.com/ayushwho18/naam-match" target="_blank" rel="noopener">github.com/ayushwho18/naam-match</a> (MIT) · Built by <a href="https://theayushdewangan.me" target="_blank" rel="noopener">Ayush Dewangan</a>, MBA Public Policy, IIM Raipur</footer>
+</main>
+
+<script type="module">
+import { match } from "./naam-match.js";
+
+const COLORS = { "Match": "var(--ok)", "Send for review": "var(--rev)", "No match": "var(--no)" };
+const LABELS = { "Match": "Same person, high confidence", "Send for review": "Possible match. A human should check", "No match": "Different people" };
+const EXAMPLES = [
+  ["श्रीमती गीता बाई साहू", "Smt. Geeta Sahu"], ["आयुष देवांगन", "Aayush Dewangan"], ["कमला देवी निषाद", "Kamla Nishad"],
+  ["Ramesh Kumar Sahu", "R. K. Sahu"], ["सुनीता वर्मा", "Sunil Verma"], ["Dewangan Ayush", "Ayush Devangan"], ["रमेश यादव", "Rakesh Yadav"]
+];
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pct = (x) => Math.round(x * 100) + "%";
+
+function compare() {
+  const a = $("a").value.trim(), b = $("b").value.trim();
+  if (!a || !b) { $("result").innerHTML = "<p>Type a name in both boxes.</p>"; return; }
+  const r = match(a, b);
+  const why = LABELS[r.verdict].toLowerCase().includes(r.why.toLowerCase()) ? "" : r.why;
+  const rows = r.steps.map(([s, x, y, n]) => `<tr><td><b>${esc(s)}</b></td><td class="mono">${esc(x)}</td><td class="mono">${esc(y)}</td><td>${esc(n)}</td></tr>`).join("");
+  $("result").innerHTML = `
+    <div class="verdict" style="--c:${COLORS[r.verdict]}"><div class="v">${esc(r.verdict)}</div>
+      <div class="s">Score ${pct(r.score)} · ${LABELS[r.verdict]}</div>${why ? `<div class="w">${esc(why)}</div>` : ""}</div>
+    <div class="cap">How it decided</div>
+    <div class="tablewrap"><table><tr><th>Step</th><th>Record A</th><th>Record B</th><th>What happened</th></tr>${rows}</table></div>`;
+}
+
+for (const [x, y] of EXAMPLES) {
+  const c = document.createElement("button"); c.className = "chip"; c.textContent = `${x} ↔ ${y}`;
+  c.onclick = () => { $("a").value = x; $("b").value = y; compare(); }; $("examples").appendChild(c);
+}
+$("go").onclick = compare; $("a").onkeydown = $("b").onkeydown = (e) => { if (e.key === "Enter") compare(); };
+
+function parseCSV(text) {
+  const out = []; let row = [], cell = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (q) { if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++; } else if (ch === '"') q = false; else cell += ch; }
+    else if (ch === '"') q = true; else if (ch === ",") { row.push(cell); cell = ""; }
+    else if (ch === "\n" || ch === "\r") { if (ch === "\r" && text[i + 1] === "\n") i++; row.push(cell); out.push(row); row = []; cell = ""; }
+    else cell += ch;
+  }
+  if (cell || row.length) { row.push(cell); out.push(row); }
+  return out;
+}
+let last = [];
+function runBatch(pairs) {
+  pairs = pairs.filter(([x, y]) => x && y && !/^name[ _]?a$/i.test(x)).slice(0, 500);
+  if (!pairs.length) { $("sum").textContent = "No pairs found. Use 'name A | name B', one per line."; $("btable").innerHTML = ""; return; }
+  last = pairs.map(([x, y]) => { const r = match(x, y); return [x, y, r.verdict, r.score.toFixed(3), r.why]; });
+  const n = (v) => last.filter((r) => r[2] === v).length;
+  $("sum").textContent = `${last.length} pairs · Match: ${n("Match")} · Send for review: ${n("Send for review")} · No match: ${n("No match")}`;
+  const cls = (v) => v === "Match" ? "Match" : v === "No match" ? "No" : "review";
+  $("btable").innerHTML = `<div class="tablewrap"><table><tr><th>Name A</th><th>Name B</th><th>Verdict</th><th>Score</th><th>Reason</th></tr>${
+    last.map((r) => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td class="tag ${cls(r[2])}">${esc(r[2])}</td><td>${r[3]}</td><td>${esc(r[4])}</td></tr>`).join("")}</table></div>`;
+  $("dl").hidden = false;
+}
+$("run").onclick = () => runBatch($("pairs").value.split(/\r?\n/).filter((l) => l.includes("|")).map((l) => { const i = l.indexOf("|"); return [l.slice(0, i).trim(), l.slice(i + 1).trim()]; }));
+$("csv").onchange = async (e) => { const f = e.target.files[0]; if (!f) return; const rows = parseCSV((await f.text()).replace(/^﻿/, "")); runBatch(rows.map((r) => [(r[0] || "").trim(), (r[1] || "").trim()])); };
+$("dl").onclick = () => {
+  const q = (s) => /[",\n]/.test(s) ? `"${String(s).replace(/"/g, '""')}"` : s;
+  const csv = "﻿" + [["name_a", "name_b", "verdict", "score", "reason"], ...last].map((r) => r.map(q).join(",")).join("\n");
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" })); a.download = "naam-match-results.csv"; a.click();
+};
+
+document.querySelectorAll("nav button").forEach((b) => b.onclick = () => {
+  document.querySelectorAll("nav button").forEach((x) => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll("main > section").forEach((s) => s.hidden = s.id !== b.dataset.tab);
+});
+compare();
+</script>
+</body>
+</html>
