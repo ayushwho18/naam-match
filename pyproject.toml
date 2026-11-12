@@ -4,18 +4,35 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "naam-match"
-version = "0.1.0"
-description = "Transparent Hindi/English name matching for Indian land records"
+version = "0.2.0"
+description = "Transparent name matching for Indian records: Hindi, eight other Indian scripts and English, with relation names (S/o, W/o)"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "Ayush Dewangan", email = "hello@theayushdewangan.me"}]
-requires-python = ">=3.9"
-keywords = ["name matching", "hindi", "transliteration", "land records", "india", "jaro-winkler"]
-classifiers = ["License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3", "Natural Language :: Hindi"]
+requires-python = ">=3.10"
+keywords = ["name matching", "record linkage", "deduplication", "hindi", "indic", "transliteration", "land records",
+            "kyc", "india", "jaro-winkler"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Hindi",
+    "Natural Language :: Bengali",
+    "Natural Language :: Panjabi",
+    "Natural Language :: Tamil",
+    "Natural Language :: Telugu",
+]
 
 [project.urls]
-Homepage = "https://theayushdewangan.me"
+Homepage = "https://ayushwho18.github.io/naam-match/"
 Source = "https://github.com/ayushwho18/naam-match"
+Author = "https://theayushdewangan.me"
+
+[project.scripts]
+naam-match = "naam_match.cli:main"
 
 [project.optional-dependencies]
 test = ["pytest"]

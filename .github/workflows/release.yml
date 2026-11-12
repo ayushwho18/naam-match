@@ -1,0 +1,19 @@
+# Publishes to PyPI when a version tag (v0.2.0, ...) is pushed.
+# One-time setup on pypi.org: add a "trusted publisher" for this repository, workflow release.yml, environment pypi.
+name: release
+on:
+  push:
+    tags: ["v*"]
+jobs:
+  pypi:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q build && python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1

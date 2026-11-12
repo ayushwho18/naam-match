@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>naam-match</title>
+<meta name="description" content="Check whether two Indian names are the same person, across Hindi, eight other Indian scripts and English. Match a whole spreadsheet in your browser; nothing is uploaded.">
+<style>
+:root {
+  --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #5f5d57; --line: #e4e1d8; --accent: #b4461f;
+  --match: #1f7a46; --match-bg: #e5f4ea; --review: #8a5a00; --review-bg: #fbf1d9; --no: #9b2c2c; --no-bg: #f9e3e3;
+  --code: #f3f1ea;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161614; --panel: #1e1e1b; --ink: #ecebe6; --muted: #a8a59c; --line: #34332e; --accent: #ef8a5f;
+    --match: #7fd3a1; --match-bg: #173a26; --review: #f0c46a; --review-bg: #3a2f14; --no: #f29a9a; --no-bg: #3d1d1d;
+    --code: #262622;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161614; --panel: #1e1e1b; --ink: #ecebe6; --muted: #a8a59c; --line: #34332e; --accent: #ef8a5f;
+  --match: #7fd3a1; --match-bg: #173a26; --review: #f0c46a; --review-bg: #3a2f14; --no: #f29a9a; --no-bg: #3d1d1d;
+  --code: #262622;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", sans-serif; }
+main { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+h1 span { color: var(--accent); }
+h2 { font-size: 1.2rem; margin: 0 0 12px; }
+p.lede { color: var(--muted); margin: 0 0 24px; max-width: 70ch; }
+section { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin: 0 0 20px; }
+label { display: block; font-size: .85rem; color: var(--muted); margin: 0 0 4px; }
+input[type=text], select { width: 100%; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+input[type=text]:focus, select:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 640px) { .grid2, .grid3 { grid-template-columns: 1fr; } }
+button { font: inherit; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 8px; padding: 9px 14px; cursor: pointer; }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button:disabled { opacity: .5; cursor: default; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+.verdict { display: inline-block; font-weight: 600; padding: 2px 10px; border-radius: 999px; font-size: .9rem; }
+.v-Match { color: var(--match); background: var(--match-bg); }
+.v-Send { color: var(--review); background: var(--review-bg); }
+.v-No { color: var(--no); background: var(--no-bg); }
+.result-head { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; margin: 16px 0 8px; }
+.score { font-size: 1.6rem; font-weight: 700; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); background: var(--code); position: sticky; top: 0; }
+tr:last-child td { border-bottom: none; }
+td.mono, .mono { font-family: ui-monospace, "Cascadia Mono", Menlo, Consolas, monospace; font-size: .85rem; }
+.examples button { font-size: .85rem; padding: 5px 10px; }
+.drop { border: 2px dashed var(--line); border-radius: 10px; padding: 18px; text-align: center; color: var(--muted); }
+.drop.over { border-color: var(--accent); color: var(--ink); }
+.note { color: var(--muted); font-size: .85rem; }
+.counts { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.counts button.on { outline: 2px solid var(--accent); }
+progress { width: 100%; height: 8px; }
+.hidden { display: none !important; }
+footer { color: var(--muted); font-size: .85rem; text-align: center; }
+footer a, p a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>naam<span>-</span>match</h1>
+  <p class="lede">Is “आयुष देवांगन” the same person as “Aayush Devangan”? Compare names across Hindi, Bengali, Gurmukhi, Gujarati, Odia, Tamil, Telugu, Kannada, Malayalam and English. Every decision shows its working. Relations like “S/o” or “पिता” are checked too, so two people with the same name but different fathers are not merged. <strong>Everything runs in your browser; nothing is uploaded.</strong></p>
+
+  <section aria-labelledby="pair-h">
+    <h2 id="pair-h">Compare two names</h2>
+    <div class="grid2">
+      <div><label for="a">Name one</label><input id="a" type="text" value="श्रीमती गीता बाई साहू पति सुरेश साहू" autocomplete="off"></div>
+      <div><label for="b">Name two</label><input id="b" type="text" value="Smt. Geeta Sahu W/o Suresh Sahu" autocomplete="off"></div>
+    </div>
+    <div class="row examples" aria-label="Examples">
+      <span class="note">Try:</span>
+      <button data-a="आयुष देवांगन" data-b="Dewangan Aayush">Hindi ↔ English</button>
+      <button data-a="ਮਨਪ੍ਰੀਤ ਸਿੰਘ" data-b="Manpreet Singh">Gurmukhi</button>
+      <button data-a="ବିଜୟ ମହାପାତ୍ର" data-b="Bijay Mahapatra">Odia</button>
+      <button data-a="Ramesh Kumar Sahu" data-b="R. K. Sahu">Initials</button>
+      <button data-a="Ramesh Sahu S/o Mohan Sahu" data-b="रमेश साहू पिता दिनेश साहू">Namesakes</button>
+    </div>
+    <div id="pair-out" aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="file-h">
+    <h2 id="file-h">Check a spreadsheet</h2>
+    <p class="note">Save your sheet as CSV (in Excel: File → Save As → CSV UTF-8). Pick what you want to do, choose the columns, and download the result.</p>
+    <div class="grid3">
+      <div><label for="mode">Task</label>
+        <select id="mode">
+          <option value="pairs">Compare two columns, row by row</option>
+          <option value="dedupe">Find duplicate people in one column</option>
+          <option value="link">Find each name in a second file</option>
+        </select></div>
+      <div><label for="col1">Name column</label><select id="col1" disabled></select></div>
+      <div id="col2-wrap"><label for="col2" id="col2-label">Second name column</label><select id="col2" disabled></select></div>
+    </div>
+    <div class="grid2" style="margin-top:12px">
+      <div class="drop" id="drop1"><label for="file1" style="margin:0">CSV file</label><input id="file1" type="file" accept=".csv,text/csv"><div class="note" id="info1">or drop a file here</div></div>
+      <div class="drop hidden" id="drop2"><label for="file2" style="margin:0">Second CSV file (to search in)</label><input id="file2" type="file" accept=".csv,text/csv"><div class="note" id="info2">or drop a file here</div></div>
+    </div>
+    <div class="row">
+      <button class="primary" id="run" disabled>Run</button>
+      <button id="sample">Load sample data</button>
+      <button id="download" disabled>Download result CSV</button>
+      <button id="download-review" class="hidden" disabled>Download review pairs</button>
+    </div>
+    <progress id="prog" class="hidden" value="0" max="1"></progress>
+    <div id="summary" class="note" aria-live="polite"></div>
+    <div class="counts" id="counts"></div>
+    <div class="table-wrap hidden" id="table-wrap"><table id="table"></table></div>
+    <p class="note" id="more"></p>
+  </section>
+
+  <section aria-labelledby="how-h">
+    <h2 id="how-h">How it decides</h2>
+    <p class="note">Indian scripts are transliterated to Latin; honorifics (Shri, Smt., श्रीमती) are dropped and suffixes like Bai or Devi set aside; spelling variants are folded (aa→a, ee→i, w→v, sh→s, ou→au); word order is ignored; each word is scored with Jaro–Winkler. <b>Match</b> needs every word to agree strongly and no initials. Initials can only ever lead to <b>Send for review</b>. When both names give a father's or husband's name, those must match too before a pair is auto-matched. It is a transparent heuristic, not a trained model: check the review pile, and read the <a href="https://github.com/ayushwho18/naam-match#benchmark">benchmark and its limits</a>.</p>
+  </section>
+  <footer>naam-match is open source (MIT) · <a href="https://github.com/ayushwho18/naam-match">GitHub</a> · Python package and command line in the repository</footer>
+</main>
+
+<script type="module">
+import { match, key, tokens, fold, splitRelation } from "./naam-match.js";
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const vclass = (v) => "v-" + v.split(" ")[0];
+
+// ---- pair ----
+function showPair() {
+  const r = match($("a").value, $("b").value);
+  const rows = r.steps.map((s) => `<tr><th scope="row">${esc(s[0])}</th><td class="mono">${esc(s[1])}</td><td class="mono">${esc(s[2])}</td><td>${esc(s[3])}</td></tr>`).join("");
+  $("pair-out").innerHTML = `<div class="result-head"><span class="verdict ${vclass(r.verdict)}">${esc(r.verdict)}</span><span class="score">${Math.round(r.score * 100)}%</span><span class="note">${esc(r.why)}</span></div>
+    <div class="table-wrap"><table><thead><tr><th>Step</th><th>Name one</th><th>Name two</th><th>What happened</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+$("a").addEventListener("input", showPair);
+$("b").addEventListener("input", showPair);
+document.querySelectorAll(".examples button").forEach((btn) => btn.addEventListener("click", () => {
+  $("a").value = btn.dataset.a; $("b").value = btn.dataset.b; showPair();
+}));
+showPair();
+
+// ---- CSV ----
+function parseCSV(text) {
+  text = text.replace(/^﻿/, "");
+  const rows = []; let row = [], field = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) {
+      if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else q = false; }
+      else field += c;
+    } else if (c === '"') q = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); field = ""; if (row.some((x) => x !== "")) rows.push(row); row = [];
+    } else field += c;
+  }
+  row.push(field); if (row.some((x) => x !== "")) rows.push(row);
+  if (!rows.length) return { fields: [], rows: [] };
+  const fields = rows[0].map((f, i) => f.trim() || `column_${i + 1}`);
+  return { fields, rows: rows.slice(1).map((r) => Object.fromEntries(fields.map((f, i) => [f, r[i] ?? ""]))) };
+}
+function toCSV(fields, rows) {
+  const cell = (v) => { v = String(v ?? ""); return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+  return "﻿" + [fields.map(cell).join(",")].concat(rows.map((r) => fields.map((f) => cell(r[f])).join(","))).join("\r\n") + "\r\n";
+}
+
+let file1 = null, file2 = null, result = null, reviewRows = null, filter = null;
+
+function fillSelect(sel, fields, guess) {
+  sel.innerHTML = fields.map((f) => `<option>${esc(f)}</option>`).join("");
+  sel.disabled = !fields.length;
+  const g = fields.find((f) => guess.test(f)); if (g) sel.value = g;
+}
+function refreshCols() {
+  const mode = $("mode").value;
+  $("drop2").classList.toggle("hidden", mode !== "link");
+  $("col2-wrap").classList.toggle("hidden", mode === "dedupe");
+  $("col2-label").textContent = mode === "link" ? "Name column in the second file" : "Second name column";
+  if (file1) fillSelect($("col1"), file1.fields, /name|naam|owner|buyer|borrower/i);
+  if (mode === "pairs" && file1) { fillSelect($("col2"), file1.fields, /name.*2|_b$|record|other/i); if ($("col2").value === $("col1").value && file1.fields.length > 1) $("col2").selectedIndex = file1.fields.indexOf($("col1").value) === 0 ? 1 : 0; }
+  if (mode === "link") { if (file2) fillSelect($("col2"), file2.fields, /name|naam|owner/i); else { $("col2").innerHTML = ""; $("col2").disabled = true; } }
+  $("run").disabled = !(file1 && (mode !== "link" || file2));
+}
+async function readFile(f) { return parseCSV(await f.text()); }
+async function setFile(which, f) {
+  const data = await readFile(f);
+  if (which === 1) { file1 = data; $("info1").textContent = `${f.name}: ${data.rows.length} rows, ${data.fields.length} columns`; }
+  else { file2 = data; $("info2").textContent = `${f.name}: ${data.rows.length} rows, ${data.fields.length} columns`; }
+  refreshCols();
+}
+$("file1").addEventListener("change", (e) => e.target.files[0] && setFile(1, e.target.files[0]));
+$("file2").addEventListener("change", (e) => e.target.files[0] && setFile(2, e.target.files[0]));
+for (const [id, n] of [["drop1", 1], ["drop2", 2]]) {
+  const el = $(id);
+  el.addEventListener("dragover", (e) => { e.preventDefault(); el.classList.add("over"); });
+  el.addEventListener("dragleave", () => el.classList.remove("over"));
+  el.addEventListener("drop", (e) => { e.preventDefault(); el.classList.remove("over"); const f = e.dataTransfer.files[0]; if (f) setFile(n, f); });
+}
+$("mode").addEventListener("change", refreshCols);
+$("sample").addEventListener("click", () => {
+  const mode = $("mode").value;
+  if (mode === "pairs") file1 = parseCSV("deed_name,record_name\nश्रीमती गीता बाई साहू,Smt. Geeta Sahu\nRamesh Kumar Sahu,R. K. Sahu\nআয়ুষ দেওয়াঙ্গন,Ayush Dewangan\nSunita Verma,Sunil Verma\nRamesh Sahu S/o Mohan Sahu,रमेश साहू पिता दिनेश साहू\nਮਨਪ੍ਰੀਤ ਸਿੰਘ,Manpreet Singh\n");
+  else if (mode === "dedupe") file1 = parseCSV("id,name\n1,Ayush Dewangan\n2,आयुष देवांगन\n3,Dewangan Aayush\n4,R. Sahu\n5,Ramesh Sahu\n6,Geeta Bai Nishad\n7,Smt. Gita Nishad\n8,Priya Singh\n");
+  else { file1 = parseCSV("buyer\nश्रीमती गीता बाई साहू\nRamesh Kumar Sahu\nPriya Singh\n"); file2 = parseCSV("khasra,owner\n101,Sunil Verma\n102,Smt. Geeta Sahu\n103,R. K. Sahu\n"); $("info2").textContent = "sample: 3 rows"; }
+  $("info1").textContent = `sample: ${file1.rows.length} rows`;
+  refreshCols();
+});
+
+// ---- batch logic (mirrors naam_match/batch.py) ----
+const RANK = { "Match": 2, "Send for review": 1, "No match": 0 };
+const folded = (n) => tokens(splitRelation(n)[0]).map(fold).filter(Boolean);
+function blockKeys(n) { const k = new Set(); for (const t of folded(n)) { if (t.length > 1) { k.add("p:" + t.slice(0, 2)); k.add("f:" + t[0]); } else k.add("i:" + t); } return k; }
+function query(n) { return folded(n).map((t) => t.length > 1 ? ["p:" + t.slice(0, 2), "i:" + t[0]] : ["f:" + t, "i:" + t]); }
+function buildIndex(names) { const idx = new Map(); names.forEach((n, j) => { for (const k of blockKeys(n)) { if (!idx.has(k)) idx.set(k, []); idx.get(k).push(j); } }); return idx; }
+function candidates(q, idx, after = -1) {
+  const counts = new Map();
+  for (const keys of q) { const hit = new Set(); for (const k of keys) for (const j of idx.get(k) || []) if (j > after) hit.add(j); for (const j of hit) counts.set(j, (counts.get(j) || 0) + 1); }
+  const need = q.length ? Math.min(2, q.length) : 1;
+  return [...counts].filter(([, c]) => c >= need).map(([j]) => j).sort((x, y) => x - y);
+}
+const tick = () => new Promise((r) => setTimeout(r, 0));
+
+async function run() {
+  const mode = $("mode").value, c1 = $("col1").value, c2 = $("col2").value;
+  $("run").disabled = true; $("prog").classList.remove("hidden"); $("summary").textContent = "Working…";
+  const rows = file1.rows, out = []; reviewRows = null; filter = null;
+  let fields = file1.fields.slice(), t0 = performance.now();
+  if (mode === "pairs") {
+    for (let i = 0; i < rows.length; i++) {
+      const r = match(rows[i][c1], rows[i][c2]);
+      out.push({ ...rows[i], score: r.score.toFixed(3), verdict: r.verdict, reason: r.why });
+      if (i % 500 === 0) { $("prog").value = i / rows.length; await tick(); }
+    }
+    fields.push("score", "verdict", "reason");
+  } else if (mode === "link") {
+    const right = file2.rows, names = right.map((r) => r[c2] || ""), idx = buildIndex(names), cache = new Map();
+    for (let i = 0; i < rows.length; i++) {
+      const n = rows[i][c1] || "";
+      if (!cache.has(n)) {
+        const found = [];
+        for (const j of candidates(query(n), idx)) { const r = match(n, names[j]); if (r.verdict !== "No match") found.push([RANK[r.verdict], r.score, -j, j, r]); }
+        found.sort((x, y) => y[0] - x[0] || y[1] - x[1] || y[2] - x[2]); cache.set(n, found[0]);
+      }
+      const best = cache.get(n);
+      out.push(best ? { ...rows[i], match_row: String(best[3] + 1), match_name: names[best[3]], score: best[4].score.toFixed(3), verdict: best[4].verdict, reason: best[4].why }
+                    : { ...rows[i], match_row: "", match_name: "", score: "", verdict: "No match", reason: "no candidate found" });
+      if (i % 200 === 0) { $("prog").value = i / rows.length; await tick(); }
+    }
+    fields.push("match_row", "match_name", "score", "verdict", "reason");
+  } else {
+    const names = rows.map((r) => r[c1] || ""), uniq = [], pos = new Map(), rowTo = [];
+    for (const n of names) { if (!pos.has(n)) { pos.set(n, uniq.length); uniq.push(n); } rowTo.push(pos.get(n)); }
+    const first = new Map(); rowTo.forEach((u, i) => { if (!first.has(u)) first.set(u, i); });
+    const idx = buildIndex(uniq), parent = uniq.map((_, i) => i), review = [];
+    const find = (x) => { while (parent[x] !== x) { parent[x] = parent[parent[x]]; x = parent[x]; } return x; };
+    for (let u = 0; u < uniq.length; u++) {
+      if (match(uniq[u], uniq[u]).verdict === "Match") {
+        for (const v of candidates(query(uniq[u]), idx, u)) {
+          const r = match(uniq[u], uniq[v]);
+          if (r.verdict === "Match") parent[find(v)] = find(u);
+          else if (r.verdict === "Send for review") review.push({ row_a: first.get(u) + 1, row_b: first.get(v) + 1, name_a: uniq[u], name_b: uniq[v], score: r.score.toFixed(3), reason: r.why });
+        }
+      }
+      if (u % 100 === 0) { $("prog").value = u / uniq.length; await tick(); }
+    }
+    const ids = new Map(), size = new Map();
+    rowTo.forEach((u) => { const root = find(u); size.set(root, (size.get(root) || 0) + 1); });
+    rows.forEach((r, i) => { const root = find(rowTo[i]); if (!ids.has(root)) ids.set(root, ids.size + 1);
+      out.push({ ...r, group: String(ids.get(root)), group_size: String(size.get(root)), verdict: size.get(root) > 1 ? "Duplicate" : "Unique" }); });
+    fields.push("group", "group_size");
+    reviewRows = review;
+  }
+  result = { fields, rows: out, mode };
+  $("prog").classList.add("hidden");
+  const secs = ((performance.now() - t0) / 1000).toFixed(1);
+  if (mode === "dedupe") {
+    const groups = new Set(out.map((r) => r.group)).size;
+    $("summary").textContent = `${out.length} rows · ${groups} distinct people · ${reviewRows.length} pairs need a human check · ${secs}s`;
+  } else $("summary").textContent = `${out.length} rows · ${secs}s`;
+  $("download").disabled = false;
+  $("download-review").classList.toggle("hidden", mode !== "dedupe");
+  $("download-review").disabled = !(reviewRows && reviewRows.length);
+  render(); $("run").disabled = false;
+}
+function render() {
+  const { fields, rows, mode } = result;
+  const counts = {};
+  for (const r of rows) counts[r.verdict] = (counts[r.verdict] || 0) + 1;
+  $("counts").innerHTML = Object.entries(counts).map(([v, n]) => `<button data-v="${esc(v)}" class="${filter === v ? "on" : ""}"><span class="verdict ${vclass(v)}">${esc(v)}</span> ${n}</button>`).join("") + (filter ? ` <button data-v="">Show all</button>` : "");
+  $("counts").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { filter = b.dataset.v || null; render(); }));
+  let shown = filter ? rows.filter((r) => r.verdict === filter) : rows;
+  if (mode === "dedupe") shown = shown.slice().sort((x, y) => (+y.group_size - +x.group_size) || (+x.group - +y.group));
+  const cols = mode === "dedupe" ? fields : fields.filter((f) => f !== "verdict").concat("verdict");
+  const head = cols.map((f) => `<th>${esc(f)}</th>`).join("");
+  const body = shown.slice(0, 300).map((r) => "<tr>" + cols.map((f) => f === "verdict" ? `<td><span class="verdict ${vclass(r[f])}">${esc(r[f])}</span></td>` : `<td>${esc(r[f] ?? "")}</td>`).join("") + "</tr>").join("");
+  $("table").innerHTML = `<thead><tr>${head}</tr></thead><tbody>${body}</tbody>`;
+  $("table-wrap").classList.remove("hidden");
+  $("more").textContent = shown.length > 300 ? `Showing 300 of ${shown.length} rows; the download has them all.` : "";
+}
+function save(name, text) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type: "text/csv;charset=utf-8" }));
+  a.download = name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+$("run").addEventListener("click", run);
+$("download").addEventListener("click", () => {
+  const fields = result.mode === "dedupe" ? result.fields : result.fields;
+  save(`naam-match-${result.mode}.csv`, toCSV(fields, result.rows));
+});
+$("download-review").addEventListener("click", () => save("naam-match-review.csv", toCSV(["row_a", "row_b", "name_a", "name_b", "score", "reason"], reviewRows)));
+</script>
+</body>
+</html>
