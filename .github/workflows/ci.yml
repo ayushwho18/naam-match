@@ -1,0 +1,36 @@
+name: tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install -q pytest
+      - name: Tests (including Python/JavaScript parity on every benchmark pair)
+        run: python -m pytest -q
+      - name: Benchmark data is reproducible
+        run: |
+          python benchmark/generate.py
+          git diff --exit-code benchmark/pairs.csv benchmark/pairs_extra.csv
+      - name: Package builds and the command works
+        run: |
+          pip install -q build
+          python -m build
+          pip install -q dist/*.whl
+          cd /tmp && naam-match "श्रीमती गीता बाई साहू" "Smt. Geeta Sahu"

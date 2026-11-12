@@ -1,0 +1,14 @@
+{
+  "name": "naam-match",
+  "version": "0.2.0",
+  "description": "Transparent name matching for Indian records: Hindi, eight other Indian scripts and English, with relation names (S/o, W/o)",
+  "type": "module",
+  "main": "js/naam-match.js",
+  "exports": { ".": "./js/naam-match.js" },
+  "files": ["js/"],
+  "keywords": ["name matching", "record linkage", "hindi", "indic", "transliteration", "india", "jaro-winkler"],
+  "license": "MIT",
+  "author": "Ayush Dewangan",
+  "repository": { "type": "git", "url": "git+https://github.com/ayushwho18/naam-match.git" },
+  "homepage": "https://ayushwho18.github.io/naam-match/"
+}

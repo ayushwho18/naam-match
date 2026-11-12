@@ -1,0 +1,438 @@
+name_a,name_b,same_person,kind
+कमला नेताम पुत्री दिनेश नेताम,Kamala Netam Daughter of Dinesh Netam,1,relation_same_parent
+रेखा बंजारे पति भूपेंद्र बंजारे,Rekha Banjare w/o Bhupendra Banjare,1,relation_same_spouse
+कविता वर्मा पिता राजेश वर्मा,Kavita Verma d/o Deepak Varma,0,namesake_diff_parent
+দীপক দাস,Saurav Ganguli,0,script_diff:Bengali
+गीता सिन्हा पुत्री भूपेंद्र सिन्हा,Geeta Sinha d/o Bhupendra Sinha,1,relation_same_parent
+कविता नेताम पिता मनोज नेताम,Kavitha Netam D/o Manoj Netam,1,relation_same_parent
+गीता देवांगन पिता दिनेश देवांगन,Gita Devangan d/o Ramesh Devangan,0,namesake_diff_parent
+संतोष निषाद पिता का नाम विजय निषाद,Santosh Nishad Son of Manoj Nishad,0,namesake_diff_parent
+महेश नेताम वल्द भूपेंद्र नेताम,Mahesh Netam s/o Dipak Netam,0,namesake_diff_parent
+राकेश सिन्हा पिता का नाम मोहन सिन्हा,Rakesh Sinha S/o Ramesh Sinha,0,namesake_diff_parent
+राजेश कश्यप पुत्र रमेश कश्यप,Rajesh Kashyap Son of Ramesh Kashyap,1,relation_same_parent
+आयुष ठाकुर पुत्र रमेश ठाकुर,Ayush Thakur S.O. Rajesh Thakur,0,namesake_diff_parent
+ભાવના મહેતા,Bhavana Mehta,1,script:Gujarati
+प्रिया गुप्ता पिता श्याम गुप्ता,Priya Gupta d/o Mohan Gupta,0,namesake_diff_parent
+ਗੁਰਮੀਤ ਗਿੱਲ,Harpreet Kaur,0,script_diff:Gurmukhi
+दिनेश बंजारे वल्द रमेश बंजारे,Dinesh Banjare s/o Ramesh Banjare,1,relation_same_parent
+रेखा सिन्हा पुत्री श्याम सिन्हा,Rekha Sinha d/o Shyam Sinha,1,relation_same_parent
+मोहन देवांगन वल्द मनोज देवांगन,Mohan Dewangan Son of Manoj Dewangan,1,relation_same_parent
+दिनेश वर्मा पिता का नाम भूपेंद्र वर्मा,Dinesh Varma Son of Mohan Verma,0,namesake_diff_parent
+कमला वर्मा पिता सुनील वर्मा,Kamla Varma d/o Ramesh Varma,0,namesake_diff_parent
+सुनील निषाद पुत्र हेमंत निषाद,Sunil Nishad S.O. Santosh Nishad,0,namesake_diff_parent
+राकेश सिन्हा पिता का नाम मोहन सिन्हा,Rakesh Sinha S/o Mohan Sinha,1,relation_same_parent
+ਮਨਪ੍ਰੀਤ ਸਿੰਘ,Manprit Singh,1,script:Gurmukhi
+कमला गुप्ता पिता विजय गुप्ता,Kamala Gupta D/o Vijay Gupta,1,relation_same_parent
+अनीता नेताम पिता श्याम नेताम,Anita Netam d/o Mahesh Netam,0,namesake_diff_parent
+महेश नेताम पिता का नाम राजेश नेताम,Mahesh Netam s/o Rajesh Netam,1,relation_same_parent
+सावित्री चंद्राकर पिता राकेश चंद्राकर,Savitri Chandrakar D/o Vijay Chandrakar,0,namesake_diff_parent
+श्याम बंजारे पिता का नाम राकेश बंजारे,Shyam Banjare S.O. Sunil Banjare,0,namesake_diff_parent
+राकेश वर्मा पुत्र आयुष वर्मा,Rakesh Varma s/o Aayush Verma,1,relation_same_parent
+सुनीता वर्मा पिता भूपेंद्र वर्मा,Sunita Varma d/o Bhupendra Varma,1,relation_same_parent
+ਜਸਵੀਰ ਸੰਧੂ,Jasvir Sandhu,1,script:Gurmukhi
+राजेश यादव पिता संतोष यादव,Rajesh Yadav S.O. Santosh Yadav,1,relation_same_parent
+সৌরভ গাঙ্গুলী,Dipak Das,0,script_diff:Bengali
+सुनीता तिवारी पिता सुनील तिवारी,Suneeta Tiwari d/o Mohan Tiwari,0,namesake_diff_parent
+अनीता मिश्रा पिता हेमंत मिश्रा,Aneeta Mishra Daughter of Dinesh Mishra,0,namesake_diff_parent
+प्रिया वर्मा पुत्री मोहन वर्मा,Priya Varma D/o Vijay Varma,0,namesake_diff_parent
+ਜਸਵੀਰ ਸੰਧੂ,Manprit Singh,0,script_diff:Gurmukhi
+लक्ष्मी गुप्ता पुत्री मोहन गुप्ता,Laxmi Gupta d/o Vijay Gupta,0,namesake_diff_parent
+সুমিতা ঘোষ,Sumita Ghosh,1,script:Bengali
+भूपेंद्र शर्मा पिता का नाम दिनेश शर्मा,Bhupendra Sharma S.O. Dinesh Sharma,1,relation_same_parent
+प्रिया साहू पुत्री रमेश साहू,Priya Saahu Daughter of Ramesh Sahu,1,relation_same_parent
+ભાવના મહેતા,Bhavna Mehta,1,script:Gujarati
+महेश देवांगन पिता का नाम भूपेंद्र देवांगन,Mahesh Dewangan S.O. Bhupendra Dewangan,1,relation_same_parent
+आयुष कश्यप वल्द हेमंत कश्यप,Aayush Kashyap S.O. Hemant Kashyap,1,relation_same_parent
+दिनेश सिन्हा पुत्र सुनील सिन्हा,Dinesh Sinha S/o Sunil Sinha,1,relation_same_parent
+राकेश सिन्हा पुत्र सुनील सिन्हा,Rakesh Sinha s/o Dinesh Sinha,0,namesake_diff_parent
+हेमंत नेताम पिता का नाम विजय नेताम,Hemant Netam S/o Mohan Netam,0,namesake_diff_parent
+हेमंत साहू वल्द राजेश साहू,Hemant Sahu s/o Rajesh Sahu,1,relation_same_parent
+दीपक गुप्ता पिता का नाम संतोष गुप्ता,Deepak Gupta s/o Sunil Gupta,0,namesake_diff_parent
+कमला बंजारे पति भूपेंद्र बंजारे,Kamala Banjare w/o Bhupendra Banjare,1,relation_same_spouse
+ਮਨਪ੍ਰੀਤ ਸਿੰਘ,Manpreet Singh,1,script:Gurmukhi
+भूपेंद्र शर्मा पिता का नाम दिनेश शर्मा,Bhupendra Sharma S.O. Santosh Sharma,0,namesake_diff_parent
+ପ୍ରଦୀପ ନାୟକ,Pradip Naik,1,script:Odia
+लक्ष्मी गुप्ता पति मोहन गुप्ता,Laxmi Gupta Wife of Mohan Gupta,1,relation_same_spouse
+पूजा वर्मा पति का नाम मनोज वर्मा,Pooja Verma Wife of Manoj Verma,1,relation_same_spouse
+अनीता सिन्हा पति रमेश सिन्हा,Anita Sinha Wife of Ramesh Sinha,1,relation_same_spouse
+पूजा मिश्रा पति श्याम मिश्रा,Puja Mishra W/o Shyam Mishra,1,relation_same_spouse
+శ్రీనివాస్ రావు,Shrinivas Rao,1,script:Telugu
+दीपक साहू पिता का नाम मोहन साहू,Deepak Sahu S.O. Vijay Saahu,0,namesake_diff_parent
+पूजा सिन्हा पुत्री भूपेंद्र सिन्हा,Puja Sinha Daughter of Bhupendra Sinha,1,relation_same_parent
+કિરણ દેસાઈ,Kiran Desai,1,script:Gujarati
+मोहन तिवारी वल्द हेमंत तिवारी,Mohan Tiwari S.O. Mahesh Tiwary,0,namesake_diff_parent
+प्रिया नेताम पति का नाम महेश नेताम,Priya Netam Wife of Mahesh Netam,1,relation_same_spouse
+संतोष कश्यप पिता आयुष कश्यप,Santosh Kashyap S/o Aayush Kashyap,1,relation_same_parent
+रेखा बंजारे पिता आयुष बंजारे,Rekha Banjare Daughter of Ayush Banjare,1,relation_same_parent
+अनीता मिश्रा पिता हेमंत मिश्रा,Anita Mishra Daughter of Hemant Mishra,1,relation_same_parent
+श्याम निषाद पुत्र राजेश निषाद,Shyam Nishad S.O. Sunil Nishad,0,namesake_diff_parent
+रेखा यादव पिता दीपक यादव,Rekha Yadav Daughter of Dipak Yadav,1,relation_same_parent
+पूजा अग्रवाल पति का नाम श्याम अग्रवाल,Pooja Agrawal W/o Shyam Agrawal,1,relation_same_spouse
+विजय मिश्रा पिता दीपक मिश्रा,Vijay Mishra Son of Rakesh Mishra,0,namesake_diff_parent
+ବିଜୟ ମହାପାତ୍ର,Anita Sahu,0,script_diff:Odia
+முருகன் செல்வம்,Selvi Raman,0,script_diff:Tamil
+दीपक शर्मा पिता राकेश शर्मा,Deepak Sharma Son of Vijay Sharma,0,namesake_diff_parent
+पूजा पटेल पति का नाम महेश पटेल,Pooja Patel w/o Mahesh Patel,1,relation_same_spouse
+सावित्री साहू पिता श्याम साहू,Savitri Sahu D/o Shyam Saahu,1,relation_same_parent
+सावित्री देवांगन पति राजेश देवांगन,Savitri Devangan w/o Rajesh Dewangan,1,relation_same_spouse
+राजेश वर्मा पुत्र रमेश वर्मा,Rajesh Verma Son of Ramesh Varma,1,relation_same_parent
+पूजा अग्रवाल पिता श्याम अग्रवाल,Puja Agrawal D/o Dinesh Agarwal,0,namesake_diff_parent
+लक्ष्मी देवांगन पिता मोहन देवांगन,Laxmi Dewangan Daughter of Manoj Devangan,0,namesake_diff_parent
+पूजा मिश्रा पिता श्याम मिश्रा,Pooja Mishra d/o Shyam Mishra,1,relation_same_parent
+कमला बंजारे पिता भूपेंद्र बंजारे,Kamala Banjare D/o Bhupendra Banjare,1,relation_same_parent
+कविता तिवारी पुत्री हेमंत तिवारी,Kavitha Tiwari Daughter of Manoj Tiwari,0,namesake_diff_parent
+कमला चंद्राकर पुत्री विजय चंद्राकर,Kamala Chandrakar Daughter of Vijay Chandrakar,1,relation_same_parent
+राकेश सिन्हा पुत्र सुनील सिन्हा,Rakesh Sinha s/o Sunil Sinha,1,relation_same_parent
+पूजा पटेल पिता महेश पटेल,Pooja Patel d/o Deepak Patel,0,namesake_diff_parent
+विजय सिन्हा पिता का नाम रमेश सिन्हा,Vijay Sinha s/o Rajesh Sinha,0,namesake_diff_parent
+सुनील शर्मा वल्द दीपक शर्मा,Sunil Sharma s/o Dipak Sharma,1,relation_same_parent
+आयुष कश्यप वल्द विजय कश्यप,Ayush Kashyap S.O. Rakesh Kashyap,0,namesake_diff_parent
+पूजा वर्मा पुत्री मनोज वर्मा,Puja Varma D/o Manoj Verma,1,relation_same_parent
+లక్ష్మి నాయుడు,Laxmi Naidu,1,script:Telugu
+செல்வி ராமன்,Rajesh Kumar,0,script_diff:Tamil
+सावित्री यादव पति श्याम यादव,Savitri Yadav w/o Shyam Yadav,1,relation_same_spouse
+सावित्री चंद्राकर पति राकेश चंद्राकर,Savitri Chandrakar W/o Rakesh Chandrakar,1,relation_same_spouse
+सावित्री देवांगन पिता राजेश देवांगन,Savitri Dewangan D/o Sunil Dewangan,0,namesake_diff_parent
+रेखा बंजारे पुत्री भूपेंद्र बंजारे,Rekha Banjare Daughter of Rakesh Banjare,0,namesake_diff_parent
+महेश मिश्रा पिता रमेश मिश्रा,Mahesh Mishra S.O. Ramesh Mishra,1,relation_same_parent
+महेश शर्मा पिता का नाम विजय शर्मा,Mahesh Sharma s/o Aayush Sharma,0,namesake_diff_parent
+श्याम गुप्ता पिता विजय गुप्ता,Shyam Gupta s/o Vijay Gupta,1,relation_same_parent
+कमला बंजारे पिता भूपेंद्र बंजारे,Kamala Banjare D/o Vijay Banjare,0,namesake_diff_parent
+ସୁଜାତା ପଣ୍ଡା,Sujata Panda,1,script:Odia
+ભાવના મહેતા,Kiran Desai,0,script_diff:Gujarati
+अनीता नेताम पिता श्याम नेताम,Anita Netam d/o Shyam Netam,1,relation_same_parent
+महेश गुप्ता पुत्र हेमंत गुप्ता,Mahesh Gupta s/o Dipak Gupta,0,namesake_diff_parent
+विजय चंद्राकर पिता मोहन चंद्राकर,Vijay Chandrakar s/o Mohan Chandrakar,1,relation_same_parent
+శ్రీనివాస్ రావు,Srinivas Rao,1,script:Telugu
+गीता सिन्हा पुत्री भूपेंद्र सिन्हा,Gita Sinha d/o Shyam Sinha,0,namesake_diff_parent
+सुनीता यादव पिता राकेश यादव,Sunita Yadav d/o Ramesh Yadav,0,namesake_diff_parent
+लक्ष्मी निषाद पिता भूपेंद्र निषाद,Lakshmi Nishad D/o Bhupendra Nishad,1,relation_same_parent
+पूजा तिवारी पुत्री रमेश तिवारी,Puja Tiwary D/o Hemant Tiwary,0,namesake_diff_parent
+कविता तिवारी पुत्री हेमंत तिवारी,Kavita Tiwary Daughter of Hemant Tiwari,1,relation_same_parent
+सुनील वर्मा पुत्र संतोष वर्मा,Sunil Verma Son of Dinesh Varma,0,namesake_diff_parent
+कविता तिवारी पति हेमंत तिवारी,Kavita Tiwari Wife of Hemant Tiwary,1,relation_same_spouse
+महेश ठाकुर पिता मनोज ठाकुर,Mahesh Thakur S/o Manoj Thakur,1,relation_same_parent
+मनोज अग्रवाल पिता दीपक अग्रवाल,Manoj Agrawal S/o Ramesh Agarwal,0,namesake_diff_parent
+செல்வி ராமன்,Selvi Raman,1,script:Tamil
+प्रिया गुप्ता पिता श्याम गुप्ता,Priya Gupta d/o Shyam Gupta,1,relation_same_parent
+ಮಂಜುನಾಥ ಶೆಟ್ಟಿ,Manjunath Shetty,1,script:Kannada
+వెంకటేష్ రెడ్డి,Venkatesh Reddy,1,script:Telugu
+गीता शर्मा पति का नाम रमेश शर्मा,Gita Sharma w/o Ramesh Sharma,1,relation_same_spouse
+रेखा यादव पति का नाम दीपक यादव,Rekha Yadav w/o Deepak Yadav,1,relation_same_spouse
+सावित्री साहू पिता मनोज साहू,Savitri Sahu d/o Bhupendra Saahu,0,namesake_diff_parent
+मोहन तिवारी वल्द हेमंत तिवारी,Mohan Tiwary S.O. Hemant Tiwary,1,relation_same_parent
+हेमंत शर्मा वल्द सुनील शर्मा,Hemant Sharma s/o Shyam Sharma,0,namesake_diff_parent
+पूजा तिवारी पति रमेश तिवारी,Puja Tiwari w/o Ramesh Tiwari,1,relation_same_spouse
+सुनीता शर्मा पिता मोहन शर्मा,Sunita Sharma Daughter of Shyam Sharma,0,namesake_diff_parent
+दीपक गुप्ता वल्द दिनेश गुप्ता,Deepak Gupta Son of Sunil Gupta,0,namesake_diff_parent
+आयुष नेताम पिता विजय नेताम,Ayush Netam S/o Vijay Netam,1,relation_same_parent
+हेमंत साहू वल्द राजेश साहू,Hemant Sahu s/o Mahesh Saahu,0,namesake_diff_parent
+अनीता देवांगन पुत्री श्याम देवांगन,Anita Devangan D/o Shyam Devangan,1,relation_same_parent
+ರಮೇಶ ಗೌಡ,Sunita Hegde,0,script_diff:Kannada
+पूजा अग्रवाल पिता श्याम अग्रवाल,Pooja Agarwal D/o Shyam Agarwal,1,relation_same_parent
+मोहन बंजारे पिता का नाम सुनील बंजारे,Mohan Banjare S.O. Sunil Banjare,1,relation_same_parent
+श्याम अग्रवाल पिता का नाम राजेश अग्रवाल,Shyam Agarwal s/o Hemant Agrawal,0,namesake_diff_parent
+महेश ठाकुर पिता का नाम विजय ठाकुर,Mahesh Thakur S/o Ramesh Thakur,0,namesake_diff_parent
+मोहन सिन्हा पुत्र दिनेश सिन्हा,Mohan Sinha Son of Dinesh Sinha,1,relation_same_parent
+महेश गुप्ता वल्द भूपेंद्र गुप्ता,Mahesh Gupta s/o Bhupendra Gupta,1,relation_same_parent
+गीता देवांगन पति का नाम दिनेश देवांगन,Geeta Devangan w/o Dinesh Devangan,1,relation_same_spouse
+रेखा तिवारी पुत्री मोहन तिवारी,Rekha Tiwari D/o Mohan Tiwary,1,relation_same_parent
+श्याम बंजारे वल्द भूपेंद्र बंजारे,Shyam Banjare S.O. Bhupendra Banjare,1,relation_same_parent
+पूजा गुप्ता पति आयुष गुप्ता,Pooja Gupta w/o Aayush Gupta,1,relation_same_spouse
+सावित्री देवांगन पिता राजेश देवांगन,Savitri Dewangan D/o Rajesh Dewangan,1,relation_same_parent
+राजेश तिवारी पिता आयुष तिवारी,Rajesh Tiwary s/o Aayush Tiwary,1,relation_same_parent
+कविता पटेल पुत्री भूपेंद्र पटेल,Kavitha Patel d/o Ayush Patel,0,namesake_diff_parent
+দীপক দাস,Deepak Das,1,script:Bengali
+कमला नेताम पुत्री हेमंत नेताम,Kamala Netam Daughter of Hemant Netam,1,relation_same_parent
+कमला चंद्राकर पति विजय चंद्राकर,Kamala Chandrakar w/o Vijay Chandrakar,1,relation_same_spouse
+रेखा शर्मा पति का नाम रमेश शर्मा,Rekha Sharma Wife of Ramesh Sharma,1,relation_same_spouse
+कविता नेताम पति संतोष नेताम,Kavitha Netam W/o Santosh Netam,1,relation_same_spouse
+राजेश शर्मा पुत्र मोहन शर्मा,Rajesh Sharma Son of Mohan Sharma,1,relation_same_parent
+सावित्री वर्मा पिता विजय वर्मा,Savitri Verma D/o Mahesh Verma,0,namesake_diff_parent
+आयुष तिवारी पिता का नाम राकेश तिवारी,Aayush Tiwari S/o Rakesh Tiwari,1,relation_same_parent
+विजय साहू वल्द राजेश साहू,Vijay Sahu Son of Manoj Sahu,0,namesake_diff_parent
+सुनील वर्मा पुत्र संतोष वर्मा,Sunil Varma Son of Santosh Varma,1,relation_same_parent
+पूजा तिवारी पुत्री रमेश तिवारी,Puja Tiwary D/o Ramesh Tiwary,1,relation_same_parent
+प्रिया सिन्हा पति मनोज सिन्हा,Priya Sinha w/o Manoj Sinha,1,relation_same_spouse
+प्रिया तिवारी पति का नाम राकेश तिवारी,Priya Tiwari Wife of Rakesh Tiwari,1,relation_same_spouse
+लक्ष्मी देवांगन पिता मोहन देवांगन,Laxmi Dewangan Daughter of Mohan Devangan,1,relation_same_parent
+अनीता पटेल पिता भूपेंद्र पटेल,Aneeta Patel D/o Rakesh Patel,0,namesake_diff_parent
+भूपेंद्र नेताम वल्द मोहन नेताम,Bhupendra Netam s/o Mohan Netam,1,relation_same_parent
+लक्ष्मी देवांगन पति का नाम मोहन देवांगन,Laxmi Devangan W/o Mohan Devangan,1,relation_same_spouse
+ବିଜୟ ମହାପାତ୍ର,Bijay Mohapatra,1,script:Odia
+ರಮೇಶ ಗೌಡ,Ramesh Gowda,1,script:Kannada
+कमला गुप्ता पति का नाम विजय गुप्ता,Kamala Gupta Wife of Vijay Gupta,1,relation_same_spouse
+रमेश चंद्राकर पिता का नाम दीपक चंद्राकर,Ramesh Chandrakar S/o Deepak Chandrakar,1,relation_same_parent
+मोहन बंजारे पिता का नाम सुनील बंजारे,Mohan Banjare S.O. Hemant Banjare,0,namesake_diff_parent
+अनीता पटेल पिता भूपेंद्र पटेल,Aneeta Patel D/o Bhupendra Patel,1,relation_same_parent
+प्रिया तिवारी पुत्री राकेश तिवारी,Priya Tiwari D/o Rakesh Tiwary,1,relation_same_parent
+राजेश शर्मा पुत्र मोहन शर्मा,Rajesh Sharma Son of Vijay Sharma,0,namesake_diff_parent
+पूजा सिन्हा पुत्री भूपेंद्र सिन्हा,Puja Sinha Daughter of Mahesh Sinha,0,namesake_diff_parent
+അനിത നായർ,Anita Nair,1,script:Malayalam
+ਹਰਪ੍ਰੀਤ ਕੌਰ,Harpreet Kaur,1,script:Gurmukhi
+संतोष निषाद पिता का नाम विजय निषाद,Santosh Nishad Son of Vijay Nishad,1,relation_same_parent
+हेमंत चंद्राकर पिता का नाम राजेश चंद्राकर,Hemant Chandrakar Son of Shyam Chandrakar,0,namesake_diff_parent
+अनीता यादव पुत्री भूपेंद्र यादव,Aneeta Yadav d/o Ramesh Yadav,0,namesake_diff_parent
+राकेश सिन्हा पिता का नाम संतोष सिन्हा,Rakesh Sinha s/o Dinesh Sinha,0,namesake_diff_parent
+હાર્દિક શાહ,Bhavana Mehta,0,script_diff:Gujarati
+कमला मिश्रा पति का नाम मनोज मिश्रा,Kamla Mishra W/o Manoj Mishra,1,relation_same_spouse
+पूजा गुप्ता पिता महेश गुप्ता,Puja Gupta d/o Mahesh Gupta,1,relation_same_parent
+सुनील यादव वल्द दिनेश यादव,Sunil Yadav S/o Santosh Yadav,0,namesake_diff_parent
+सुनीता अग्रवाल पिता हेमंत अग्रवाल,Suneeta Agarwal D/o Deepak Agrawal,0,namesake_diff_parent
+सावित्री नेताम पुत्री भूपेंद्र नेताम,Savitri Netam d/o Mahesh Netam,0,namesake_diff_parent
+संतोष कश्यप पिता आयुष कश्यप,Santosh Kashyap S/o Mohan Kashyap,0,namesake_diff_parent
+पूजा पटेल पिता राकेश पटेल,Puja Patel Daughter of Rakesh Patel,1,relation_same_parent
+कमला वर्मा पति सुनील वर्मा,Kamala Varma Wife of Sunil Verma,1,relation_same_spouse
+दिनेश वर्मा पिता का नाम भूपेंद्र वर्मा,Dinesh Varma Son of Bhupendra Varma,1,relation_same_parent
+पूजा वर्मा पुत्री मनोज वर्मा,Pooja Verma D/o Mohan Verma,0,namesake_diff_parent
+गीता शर्मा पुत्री रमेश शर्मा,Geeta Sharma d/o Ramesh Sharma,1,relation_same_parent
+दीपक शर्मा पुत्र संतोष शर्मा,Dipak Sharma S/o Santosh Sharma,1,relation_same_parent
+सुनीता तिवारी पति का नाम सुनील तिवारी,Sunita Tiwari Wife of Sunil Tiwari,1,relation_same_spouse
+प्रिया सिन्हा पुत्री मनोज सिन्हा,Priya Sinha D/o Dipak Sinha,0,namesake_diff_parent
+रेखा यादव पिता दीपक यादव,Rekha Yadav Daughter of Santosh Yadav,0,namesake_diff_parent
+विजय साहू वल्द राजेश साहू,Vijay Sahu Son of Rajesh Sahu,1,relation_same_parent
+पूजा मिश्रा पिता श्याम मिश्रा,Pooja Mishra d/o Dipak Mishra,0,namesake_diff_parent
+संतोष पटेल पिता विजय पटेल,Santosh Patel Son of Bhupendra Patel,0,namesake_diff_parent
+कविता नेताम पिता मनोज नेताम,Kavita Netam D/o Mahesh Netam,0,namesake_diff_parent
+નરેન્દ્ર પટેલ,Narendra Patel,1,script:Gujarati
+दीपक नेताम पिता दिनेश नेताम,Dipak Netam s/o Dinesh Netam,1,relation_same_parent
+श्याम बंजारे पिता का नाम राकेश बंजारे,Shyam Banjare S.O. Rakesh Banjare,1,relation_same_parent
+दिनेश गुप्ता पिता का नाम आयुष गुप्ता,Dinesh Gupta Son of Aayush Gupta,1,relation_same_parent
+मोहन मिश्रा वल्द राकेश मिश्रा,Mohan Mishra S/o Rakesh Mishra,1,relation_same_parent
+प्रिया निषाद पुत्री मनोज निषाद,Priya Nishad Daughter of Manoj Nishad,1,relation_same_parent
+ಮಂಜುನಾಥ ಶೆಟ್ಟಿ,Manjunatha Shetty,1,script:Kannada
+मोहन बंजारे पिता का नाम आयुष बंजारे,Mohan Banjare s/o Aayush Banjare,1,relation_same_parent
+महेश मिश्रा पिता रमेश मिश्रा,Mahesh Mishra S.O. Ayush Mishra,0,namesake_diff_parent
+अनीता सिन्हा पुत्री रमेश सिन्हा,Anita Sinha D/o Ramesh Sinha,1,relation_same_parent
+সৌরভ গাঙ্গুলী,Sourav Ganguly,1,script:Bengali
+ଅନିତା ସାହୁ,Sujata Panda,0,script_diff:Odia
+पूजा पटेल पिता महेश पटेल,Pooja Patel d/o Mahesh Patel,1,relation_same_parent
+हेमंत साहू पुत्र मनोज साहू,Hemant Saahu S/o Deepak Sahu,0,namesake_diff_parent
+हेमंत नेताम पिता का नाम विजय नेताम,Hemant Netam S/o Vijay Netam,1,relation_same_parent
+रमेश चंद्राकर पिता का नाम दीपक चंद्राकर,Ramesh Chandrakar S/o Shyam Chandrakar,0,namesake_diff_parent
+आयुष कश्यप वल्द विजय कश्यप,Aayush Kashyap S.O. Vijay Kashyap,1,relation_same_parent
+मोहन देवांगन वल्द मनोज देवांगन,Mohan Dewangan Son of Shyam Devangan,0,namesake_diff_parent
+कविता मिश्रा पति सुनील मिश्रा,Kavitha Mishra Wife of Sunil Mishra,1,relation_same_spouse
+रेखा सिन्हा पति का नाम श्याम सिन्हा,Rekha Sinha Wife of Shyam Sinha,1,relation_same_spouse
+पूजा गुप्ता पिता महेश गुप्ता,Puja Gupta d/o Vijay Gupta,0,namesake_diff_parent
+रेखा अग्रवाल पुत्री रमेश अग्रवाल,Rekha Agarwal D/o Rakesh Agrawal,0,namesake_diff_parent
+कविता नेताम पुत्री संतोष नेताम,Kavita Netam Daughter of Santosh Netam,1,relation_same_parent
+आयुष ठाकुर पुत्र रमेश ठाकुर,Aayush Thakur S.O. Ramesh Thakur,1,relation_same_parent
+कमला चंद्राकर पुत्री विजय चंद्राकर,Kamla Chandrakar Daughter of Mahesh Chandrakar,0,namesake_diff_parent
+कमला वर्मा पिता सुनील वर्मा,Kamala Verma d/o Sunil Verma,1,relation_same_parent
+प्रिया साहू पति का नाम रमेश साहू,Priya Saahu w/o Ramesh Sahu,1,relation_same_spouse
+राजेश वर्मा पुत्र रमेश वर्मा,Rajesh Varma Son of Mahesh Varma,0,namesake_diff_parent
+प्रिया वर्मा पति मोहन वर्मा,Priya Verma W/o Mohan Verma,1,relation_same_spouse
+दीपक गुप्ता पिता का नाम संतोष गुप्ता,Dipak Gupta s/o Santosh Gupta,1,relation_same_parent
+प्रिया सिन्हा पुत्री मनोज सिन्हा,Priya Sinha D/o Manoj Sinha,1,relation_same_parent
+रमेश देवांगन पुत्र हेमंत देवांगन,Ramesh Dewangan S.O. Rajesh Dewangan,0,namesake_diff_parent
+सुनील यादव वल्द दिनेश यादव,Sunil Yadav S/o Dinesh Yadav,1,relation_same_parent
+रेखा साहू पति का नाम संतोष साहू,Rekha Saahu W/o Santosh Sahu,1,relation_same_spouse
+आयुष तिवारी पिता का नाम राकेश तिवारी,Ayush Tiwary S/o Sunil Tiwary,0,namesake_diff_parent
+महेश सिन्हा वल्द दिनेश सिन्हा,Mahesh Sinha s/o Dinesh Sinha,1,relation_same_parent
+सुनील गुप्ता पिता का नाम राकेश गुप्ता,Sunil Gupta S.O. Hemant Gupta,0,namesake_diff_parent
+हेमंत साहू पुत्र मनोज साहू,Hemant Saahu S/o Manoj Saahu,1,relation_same_parent
+सावित्री वर्मा पति विजय वर्मा,Savitri Varma Wife of Vijay Verma,1,relation_same_spouse
+प्रिया नेताम पुत्री महेश नेताम,Priya Netam Daughter of Santosh Netam,0,namesake_diff_parent
+रेखा अग्रवाल पति का नाम रमेश अग्रवाल,Rekha Agrawal w/o Ramesh Agarwal,1,relation_same_spouse
+प्रिया नेताम पुत्री महेश नेताम,Priya Netam Daughter of Mahesh Netam,1,relation_same_parent
+ராஜேஷ் குமார்,Rajesh Kumar,1,script:Tamil
+पूजा गुप्ता पुत्री आयुष गुप्ता,Puja Gupta Daughter of Deepak Gupta,0,namesake_diff_parent
+गीता पटेल पिता मोहन पटेल,Gita Patel Daughter of Mohan Patel,1,relation_same_parent
+ବିଜୟ ମହାପାତ୍ର,Bijay Mahapatra,1,script:Odia
+आयुष यादव पुत्र दिनेश यादव,Aayush Yadav Son of Manoj Yadav,0,namesake_diff_parent
+महेश कश्यप पिता का नाम राजेश कश्यप,Mahesh Kashyap s/o Mohan Kashyap,0,namesake_diff_parent
+सुनीता तिवारी पिता सुनील तिवारी,Sunita Tiwary d/o Sunil Tiwary,1,relation_same_parent
+দীপক দাস,Dipak Das,1,script:Bengali
+राजेश यादव पिता संतोष यादव,Rajesh Yadav S.O. Vijay Yadav,0,namesake_diff_parent
+भूपेंद्र देवांगन पिता महेश देवांगन,Bhupendra Devangan S.O. Mahesh Devangan,1,relation_same_parent
+सावित्री साहू पति मनोज साहू,Savitri Saahu W/o Manoj Saahu,1,relation_same_spouse
+प्रिया यादव पुत्री संतोष यादव,Priya Yadav d/o Santosh Yadav,1,relation_same_parent
+कविता नेताम पुत्री संतोष नेताम,Kavita Netam Daughter of Ramesh Netam,0,namesake_diff_parent
+मनोज सिन्हा वल्द भूपेंद्र सिन्हा,Manoj Sinha S/o Deepak Sinha,0,namesake_diff_parent
+दिनेश सिन्हा पुत्र सुनील सिन्हा,Dinesh Sinha S/o Mahesh Sinha,0,namesake_diff_parent
+आयुष यादव पुत्र दिनेश यादव,Aayush Yadav Son of Dinesh Yadav,1,relation_same_parent
+भूपेंद्र देवांगन पिता महेश देवांगन,Bhupendra Dewangan S.O. Ramesh Dewangan,0,namesake_diff_parent
+सावित्री साहू पति का नाम श्याम साहू,Savitri Sahu w/o Shyam Saahu,1,relation_same_spouse
+आयुष नेताम पिता विजय नेताम,Ayush Netam S/o Santosh Netam,0,namesake_diff_parent
+कमला नेताम पुत्री हेमंत नेताम,Kamala Netam Daughter of Aayush Netam,0,namesake_diff_parent
+मोहन बंजारे पिता का नाम आयुष बंजारे,Mohan Banjare s/o Bhupendra Banjare,0,namesake_diff_parent
+गीता शर्मा पुत्री रमेश शर्मा,Gita Sharma d/o Santosh Sharma,0,namesake_diff_parent
+राजेश तिवारी पिता आयुष तिवारी,Rajesh Tiwari s/o Deepak Tiwary,0,namesake_diff_parent
+लक्ष्मी गुप्ता पुत्री मोहन गुप्ता,Laxmi Gupta d/o Mohan Gupta,1,relation_same_parent
+प्रिया निषाद पुत्री मनोज निषाद,Priya Nishad Daughter of Vijay Nishad,0,namesake_diff_parent
+अनीता देवांगन पति श्याम देवांगन,Aneeta Dewangan W/o Shyam Dewangan,1,relation_same_spouse
+সুমিতা ঘোষ,Saurav Ganguli,0,script_diff:Bengali
+रेखा शर्मा पुत्री रमेश शर्मा,Rekha Sharma D/o Ramesh Sharma,1,relation_same_parent
+लक्ष्मी वर्मा पति राजेश वर्मा,Lakshmi Verma w/o Rajesh Verma,1,relation_same_spouse
+रमेश देवांगन पुत्र हेमंत देवांगन,Ramesh Devangan S.O. Hemant Dewangan,1,relation_same_parent
+ബിജു മേനോൻ,Biju Menon,1,script:Malayalam
+लक्ष्मी चंद्राकर पति का नाम राकेश चंद्राकर,Laxmi Chandrakar w/o Rakesh Chandrakar,1,relation_same_spouse
+विजय अग्रवाल वल्द राजेश अग्रवाल,Vijay Agrawal S.O. Rajesh Agarwal,1,relation_same_parent
+महेश ठाकुर पिता का नाम विजय ठाकुर,Mahesh Thakur S/o Vijay Thakur,1,relation_same_parent
+कमला मिश्रा पिता मनोज मिश्रा,Kamla Mishra d/o Manoj Mishra,1,relation_same_parent
+ಮಂಜುನಾಥ ಶೆಟ್ಟಿ,Sunita Hegde,0,script_diff:Kannada
+मनोज सिन्हा वल्द भूपेंद्र सिन्हा,Manoj Sinha S/o Bhupendra Sinha,1,relation_same_parent
+कविता वर्मा पति का नाम राजेश वर्मा,Kavita Varma Wife of Rajesh Varma,1,relation_same_spouse
+प्रिया वर्मा पुत्री मोहन वर्मा,Priya Varma D/o Mohan Varma,1,relation_same_parent
+অমিত বসু,Amit Basu,1,script:Bengali
+दिनेश बंजारे वल्द रमेश बंजारे,Dinesh Banjare s/o Mahesh Banjare,0,namesake_diff_parent
+ರಮೇಶ ಗೌಡ,Ramesh Gouda,1,script:Kannada
+रमेश यादव पिता राजेश यादव,Ramesh Yadav S.O. Ayush Yadav,0,namesake_diff_parent
+প্রিয়াঙ্কা সেন,Saurav Ganguli,0,script_diff:Bengali
+सावित्री साहू पिता मनोज साहू,Savitri Saahu d/o Manoj Sahu,1,relation_same_parent
+सुनीता यादव पति राकेश यादव,Sunita Yadav Wife of Rakesh Yadav,1,relation_same_spouse
+प्रिया निषाद पति मनोज निषाद,Priya Nishad Wife of Manoj Nishad,1,relation_same_spouse
+दिनेश गुप्ता पिता का नाम आयुष गुप्ता,Dinesh Gupta Son of Santosh Gupta,0,namesake_diff_parent
+हेमंत चंद्राकर पिता का नाम राजेश चंद्राकर,Hemant Chandrakar Son of Rajesh Chandrakar,1,relation_same_parent
+सुनील गुप्ता पिता का नाम राकेश गुप्ता,Sunil Gupta S.O. Rakesh Gupta,1,relation_same_parent
+महेश सिन्हा वल्द दिनेश सिन्हा,Mahesh Sinha s/o Rakesh Sinha,0,namesake_diff_parent
+സുരേഷ് കുമാർ,Biju Menon,0,script_diff:Malayalam
+अनीता देवांगन पुत्री श्याम देवांगन,Aneeta Devangan D/o Rajesh Devangan,0,namesake_diff_parent
+सावित्री नेताम पति का नाम भूपेंद्र नेताम,Savitri Netam w/o Bhupendra Netam,1,relation_same_spouse
+ଅନିତା ସାହୁ,Anita Sahu,1,script:Odia
+मनोज अग्रवाल पिता दीपक अग्रवाल,Manoj Agarwal S/o Dipak Agrawal,1,relation_same_parent
+முருகன் செல்வம்,Murugan Selvam,1,script:Tamil
+आयुष कश्यप वल्द हेमंत कश्यप,Ayush Kashyap S.O. Deepak Kashyap,0,namesake_diff_parent
+विजय सिन्हा पिता का नाम रमेश सिन्हा,Vijay Sinha s/o Ramesh Sinha,1,relation_same_parent
+ପ୍ରଦୀପ ନାୟକ,Pradeep Nayak,1,script:Odia
+कविता पटेल पुत्री भूपेंद्र पटेल,Kavita Patel d/o Bhupendra Patel,1,relation_same_parent
+कमला नेताम पति का नाम हेमंत नेताम,Kamla Netam W/o Hemant Netam,1,relation_same_spouse
+पूजा गुप्ता पति का नाम महेश गुप्ता,Puja Gupta W/o Mahesh Gupta,1,relation_same_spouse
+दीपक गुप्ता वल्द दिनेश गुप्ता,Dipak Gupta Son of Dinesh Gupta,1,relation_same_parent
+लक्ष्मी निषाद पति भूपेंद्र निषाद,Laxmi Nishad Wife of Bhupendra Nishad,1,relation_same_spouse
+ബിജു മേനോൻ,Suresh Kumar,0,script_diff:Malayalam
+सुनीता यादव पिता राकेश यादव,Sunita Yadav d/o Rakesh Yadav,1,relation_same_parent
+महेश गुप्ता पुत्र सुनील गुप्ता,Mahesh Gupta S/o Santosh Gupta,0,namesake_diff_parent
+गीता पटेल पिता मोहन पटेल,Geeta Patel Daughter of Santosh Patel,0,namesake_diff_parent
+ಸುನೀತಾ ಹೆಗ್ಡೆ,Sunita Hegde,1,script:Kannada
+संतोष पटेल पिता विजय पटेल,Santosh Patel Son of Vijay Patel,1,relation_same_parent
+लक्ष्मी चंद्राकर पिता राकेश चंद्राकर,Lakshmi Chandrakar D/o Deepak Chandrakar,0,namesake_diff_parent
+હાર્દિક શાહ,Hardik Shah,1,script:Gujarati
+रमेश ठाकुर वल्द आयुष ठाकुर,Ramesh Thakur s/o Aayush Thakur,1,relation_same_parent
+अनीता यादव पुत्री भूपेंद्र यादव,Aneeta Yadav d/o Bhupendra Yadav,1,relation_same_parent
+অমিত বসু,Sumita Ghosh,0,script_diff:Bengali
+महेश देवांगन पिता का नाम भूपेंद्र देवांगन,Mahesh Dewangan S.O. Hemant Devangan,0,namesake_diff_parent
+मनोज शर्मा पिता का नाम सुनील शर्मा,Manoj Sharma Son of Sunil Sharma,1,relation_same_parent
+लक्ष्मी वर्मा पिता राजेश वर्मा,Laxmi Varma d/o Ramesh Verma,0,namesake_diff_parent
+महेश शर्मा पिता का नाम विजय शर्मा,Mahesh Sharma s/o Vijay Sharma,1,relation_same_parent
+सावित्री साहू पिता श्याम साहू,Savitri Saahu D/o Hemant Sahu,0,namesake_diff_parent
+रमेश ठाकुर पुत्र मनोज ठाकुर,Ramesh Thakur Son of Dipak Thakur,0,namesake_diff_parent
+সৌরভ গাঙ্গুলী,Saurav Ganguli,1,script:Bengali
+रेखा बंजारे पति का नाम आयुष बंजारे,Rekha Banjare W/o Aayush Banjare,1,relation_same_spouse
+आयुष कश्यप वल्द मोहन कश्यप,Ayush Kashyap S/o Mohan Kashyap,1,relation_same_parent
+कविता पटेल पति का नाम भूपेंद्र पटेल,Kavita Patel W/o Bhupendra Patel,1,relation_same_spouse
+सावित्री निषाद पुत्री राजेश निषाद,Savitri Nishad Daughter of Rajesh Nishad,1,relation_same_parent
+दीपक शर्मा पुत्र संतोष शर्मा,Dipak Sharma S/o Manoj Sharma,0,namesake_diff_parent
+सावित्री यादव पिता श्याम यादव,Savitri Yadav Daughter of Shyam Yadav,1,relation_same_parent
+ਮਨਪ੍ਰੀਤ ਸਿੰਘ,Gurmeet Gill,0,script_diff:Gurmukhi
+महेश गुप्ता पुत्र हेमंत गुप्ता,Mahesh Gupta s/o Hemant Gupta,1,relation_same_parent
+महेश निषाद पुत्र विजय निषाद,Mahesh Nishad s/o Ramesh Nishad,0,namesake_diff_parent
+प्रिया यादव पति का नाम संतोष यादव,Priya Yadav w/o Santosh Yadav,1,relation_same_spouse
+प्रिया तिवारी पुत्री राकेश तिवारी,Priya Tiwari D/o Manoj Tiwary,0,namesake_diff_parent
+हेमंत मिश्रा वल्द सुनील मिश्रा,Hemant Mishra s/o Sunil Mishra,1,relation_same_parent
+राकेश वर्मा पुत्र आयुष वर्मा,Rakesh Varma s/o Rajesh Varma,0,namesake_diff_parent
+संतोष यादव पिता दिनेश यादव,Santosh Yadav s/o Ramesh Yadav,0,namesake_diff_parent
+महेश गुप्ता पुत्र सुनील गुप्ता,Mahesh Gupta S/o Sunil Gupta,1,relation_same_parent
+रेखा शर्मा पुत्री रमेश शर्मा,Rekha Sharma D/o Santosh Sharma,0,namesake_diff_parent
+पूजा पटेल पति राकेश पटेल,Puja Patel W/o Rakesh Patel,1,relation_same_spouse
+लक्ष्मी चंद्राकर पति का नाम संतोष चंद्राकर,Lakshmi Chandrakar W/o Santosh Chandrakar,1,relation_same_spouse
+श्याम अग्रवाल पिता का नाम राजेश अग्रवाल,Shyam Agarwal s/o Rajesh Agarwal,1,relation_same_parent
+श्याम बंजारे वल्द भूपेंद्र बंजारे,Shyam Banjare S.O. Ramesh Banjare,0,namesake_diff_parent
+गीता सिन्हा पति भूपेंद्र सिन्हा,Gita Sinha Wife of Bhupendra Sinha,1,relation_same_spouse
+अनीता मिश्रा पति हेमंत मिश्रा,Aneeta Mishra W/o Hemant Mishra,1,relation_same_spouse
+કિરણ દેસાઈ,Bhavana Mehta,0,script_diff:Gujarati
+सावित्री निषाद पुत्री राजेश निषाद,Savitri Nishad Daughter of Rakesh Nishad,0,namesake_diff_parent
+रेखा बंजारे पुत्री भूपेंद्र बंजारे,Rekha Banjare Daughter of Bhupendra Banjare,1,relation_same_parent
+లక్ష్మి నాయుడు,Shrinivas Rao,0,script_diff:Telugu
+सुनीता अग्रवाल पिता हेमंत अग्रवाल,Sunita Agarwal D/o Hemant Agarwal,1,relation_same_parent
+महेश नेताम पिता का नाम राजेश नेताम,Mahesh Netam s/o Hemant Netam,0,namesake_diff_parent
+मोहन बंजारे पुत्र मनोज बंजारे,Mohan Banjare s/o Hemant Banjare,0,namesake_diff_parent
+अनीता पटेल पति का नाम भूपेंद्र पटेल,Aneeta Patel W/o Bhupendra Patel,1,relation_same_spouse
+कविता मिश्रा पुत्री सुनील मिश्रा,Kavita Mishra d/o Sunil Mishra,1,relation_same_parent
+लक्ष्मी निषाद पिता भूपेंद्र निषाद,Laxmi Nishad D/o Shyam Nishad,0,namesake_diff_parent
+रेखा तिवारी पति मोहन तिवारी,Rekha Tiwari Wife of Mohan Tiwari,1,relation_same_spouse
+हेमंत मिश्रा वल्द सुनील मिश्रा,Hemant Mishra s/o Shyam Mishra,0,namesake_diff_parent
+सुनील शर्मा वल्द दीपक शर्मा,Sunil Sharma s/o Vijay Sharma,0,namesake_diff_parent
+कविता मिश्रा पुत्री सुनील मिश्रा,Kavitha Mishra d/o Dipak Mishra,0,namesake_diff_parent
+सुनीता वर्मा पिता भूपेंद्र वर्मा,Suneeta Verma d/o Shyam Varma,0,namesake_diff_parent
+कमला मिश्रा पिता मनोज मिश्रा,Kamala Mishra d/o Sunil Mishra,0,namesake_diff_parent
+സുരേഷ് കുമാർ,Suresh Kumar,1,script:Malayalam
+सुनीता वर्मा पति का नाम भूपेंद्र वर्मा,Suneeta Verma w/o Bhupendra Varma,1,relation_same_spouse
+रमेश ठाकुर वल्द आयुष ठाकुर,Ramesh Thakur s/o Deepak Thakur,0,namesake_diff_parent
+कमला नेताम पति दिनेश नेताम,Kamala Netam W/o Dinesh Netam,1,relation_same_spouse
+रेखा तिवारी पुत्री मोहन तिवारी,Rekha Tiwari D/o Ayush Tiwary,0,namesake_diff_parent
+महेश गुप्ता वल्द भूपेंद्र गुप्ता,Mahesh Gupta s/o Ayush Gupta,0,namesake_diff_parent
+दीपक नेताम पिता दिनेश नेताम,Deepak Netam s/o Ramesh Netam,0,namesake_diff_parent
+रमेश यादव पिता राजेश यादव,Ramesh Yadav S.O. Rajesh Yadav,1,relation_same_parent
+हेमंत शर्मा वल्द सुनील शर्मा,Hemant Sharma s/o Sunil Sharma,1,relation_same_parent
+अनीता सिन्हा पुत्री रमेश सिन्हा,Aneeta Sinha D/o Sunil Sinha,0,namesake_diff_parent
+मोहन मिश्रा वल्द राकेश मिश्रा,Mohan Mishra S/o Dipak Mishra,0,namesake_diff_parent
+रमेश ठाकुर पुत्र मनोज ठाकुर,Ramesh Thakur Son of Manoj Thakur,1,relation_same_parent
+श्याम निषाद पुत्र राजेश निषाद,Shyam Nishad S.O. Rajesh Nishad,1,relation_same_parent
+अनीता यादव पति का नाम भूपेंद्र यादव,Aneeta Yadav W/o Bhupendra Yadav,1,relation_same_spouse
+ਜਸਵੀਰ ਸੰਧੂ,Jasveer Sandhu,1,script:Gurmukhi
+లక్ష్మి నాయుడు,Lakshmi Naidu,1,script:Telugu
+ਹਰਪ੍ਰੀਤ ਕੌਰ,Gurmeet Gill,0,script_diff:Gurmukhi
+लक्ष्मी चंद्राकर पुत्री संतोष चंद्राकर,Laxmi Chandrakar d/o Vijay Chandrakar,0,namesake_diff_parent
+प्रिया यादव पुत्री संतोष यादव,Priya Yadav d/o Vijay Yadav,0,namesake_diff_parent
+प्रिया साहू पुत्री रमेश साहू,Priya Sahu Daughter of Rakesh Sahu,0,namesake_diff_parent
+ராஜேஷ் குமார்,Murugan Selvam,0,script_diff:Tamil
+पूजा सिन्हा पति का नाम भूपेंद्र सिन्हा,Puja Sinha W/o Bhupendra Sinha,1,relation_same_spouse
+सुनील निषाद पुत्र हेमंत निषाद,Sunil Nishad S.O. Hemant Nishad,1,relation_same_parent
+महेश नेताम वल्द भूपेंद्र नेताम,Mahesh Netam s/o Bhupendra Netam,1,relation_same_parent
+सुनीता अग्रवाल पति का नाम हेमंत अग्रवाल,Sunita Agarwal Wife of Hemant Agarwal,1,relation_same_spouse
+रेखा बंजारे पिता आयुष बंजारे,Rekha Banjare Daughter of Rakesh Banjare,0,namesake_diff_parent
+सुनीता यादव पति रमेश यादव,Suneeta Yadav Wife of Ramesh Yadav,1,relation_same_spouse
+रेखा साहू पिता संतोष साहू,Rekha Sahu D/o Vijay Sahu,0,namesake_diff_parent
+ਗੁਰਮੀਤ ਗਿੱਲ,Gurmeet Gill,1,script:Gurmukhi
+लक्ष्मी वर्मा पिता राजेश वर्मा,Lakshmi Varma d/o Rajesh Verma,1,relation_same_parent
+लक्ष्मी चंद्राकर पुत्री संतोष चंद्राकर,Lakshmi Chandrakar d/o Santosh Chandrakar,1,relation_same_parent
+रेखा सिन्हा पुत्री श्याम सिन्हा,Rekha Sinha d/o Deepak Sinha,0,namesake_diff_parent
+कमला गुप्ता पिता विजय गुप्ता,Kamala Gupta D/o Ramesh Gupta,0,namesake_diff_parent
+सावित्री चंद्राकर पिता राकेश चंद्राकर,Savitri Chandrakar D/o Rakesh Chandrakar,1,relation_same_parent
+अनीता नेताम पति का नाम श्याम नेताम,Aneeta Netam w/o Shyam Netam,1,relation_same_spouse
+गीता पटेल पति का नाम मोहन पटेल,Gita Patel w/o Mohan Patel,1,relation_same_spouse
+శ్రీనివాస్ రావు,Lakshmi Naidu,0,script_diff:Telugu
+प्रिया गुप्ता पति का नाम श्याम गुप्ता,Priya Gupta w/o Shyam Gupta,1,relation_same_spouse
+लक्ष्मी चंद्राकर पिता राकेश चंद्राकर,Laxmi Chandrakar D/o Rakesh Chandrakar,1,relation_same_parent
+सुनीता शर्मा पिता मोहन शर्मा,Sunita Sharma Daughter of Mohan Sharma,1,relation_same_parent
+रेखा अग्रवाल पुत्री रमेश अग्रवाल,Rekha Agrawal D/o Ramesh Agrawal,1,relation_same_parent
+संतोष यादव पिता दिनेश यादव,Santosh Yadav s/o Dinesh Yadav,1,relation_same_parent
+राजेश कश्यप पुत्र रमेश कश्यप,Rajesh Kashyap Son of Vijay Kashyap,0,namesake_diff_parent
+पूजा गुप्ता पुत्री आयुष गुप्ता,Puja Gupta Daughter of Ayush Gupta,1,relation_same_parent
+महेश ठाकुर पिता मनोज ठाकुर,Mahesh Thakur S/o Deepak Thakur,0,namesake_diff_parent
+महेश निषाद पुत्र विजय निषाद,Mahesh Nishad s/o Vijay Nishad,1,relation_same_parent
+मनोज शर्मा पिता का नाम सुनील शर्मा,Manoj Sharma Son of Rajesh Sharma,0,namesake_diff_parent
+सुनीता यादव पुत्री रमेश यादव,Suneeta Yadav D/o Manoj Yadav,0,namesake_diff_parent
+राकेश सिन्हा पिता का नाम संतोष सिन्हा,Rakesh Sinha s/o Santosh Sinha,1,relation_same_parent
+कविता नेताम पति मनोज नेताम,Kavita Netam W/o Manoj Netam,1,relation_same_spouse
+ପ୍ରଦୀପ ନାୟକ,Sujata Panda,0,script_diff:Odia
+નરેન્દ્ર પટેલ,Kiran Desai,0,script_diff:Gujarati
+सावित्री नेताम पुत्री भूपेंद्र नेताम,Savitri Netam d/o Bhupendra Netam,1,relation_same_parent
+ಸುನೀತಾ ಹೆಗ್ಡೆ,Ramesh Gowda,0,script_diff:Kannada
+विजय अग्रवाल वल्द राजेश अग्रवाल,Vijay Agrawal S.O. Mohan Agarwal,0,namesake_diff_parent
+रेखा साहू पिता संतोष साहू,Rekha Sahu D/o Santosh Sahu,1,relation_same_parent
+मोहन बंजारे पुत्र मनोज बंजारे,Mohan Banjare s/o Manoj Banjare,1,relation_same_parent
+వెంకటేష్ రెడ్డి,Srinivas Rao,0,script_diff:Telugu
+विजय चंद्राकर पिता मोहन चंद्राकर,Vijay Chandrakar s/o Ramesh Chandrakar,0,namesake_diff_parent
+श्याम गुप्ता पिता विजय गुप्ता,Shyam Gupta s/o Hemant Gupta,0,namesake_diff_parent
+सावित्री निषाद पति का नाम राजेश निषाद,Savitri Nishad w/o Rajesh Nishad,1,relation_same_spouse
+भूपेंद्र नेताम वल्द मोहन नेताम,Bhupendra Netam s/o Vijay Netam,0,namesake_diff_parent
+दीपक साहू पिता का नाम मोहन साहू,Deepak Saahu S.O. Mohan Sahu,1,relation_same_parent
+कविता वर्मा पिता राजेश वर्मा,Kavitha Varma d/o Rajesh Verma,1,relation_same_parent
+आयुष कश्यप वल्द मोहन कश्यप,Ayush Kashyap S/o Bhupendra Kashyap,0,namesake_diff_parent
+सावित्री यादव पिता श्याम यादव,Savitri Yadav Daughter of Mohan Yadav,0,namesake_diff_parent
+महेश कश्यप पिता का नाम राजेश कश्यप,Mahesh Kashyap s/o Rajesh Kashyap,1,relation_same_parent
+सुनीता यादव पुत्री रमेश यादव,Suneeta Yadav D/o Ramesh Yadav,1,relation_same_parent
+सावित्री वर्मा पिता विजय वर्मा,Savitri Verma D/o Vijay Varma,1,relation_same_parent
+गीता देवांगन पिता दिनेश देवांगन,Gita Dewangan d/o Dinesh Dewangan,1,relation_same_parent
+প্রিয়াঙ্কা সেন,Priyanka Sen,1,script:Bengali
+कमला नेताम पुत्री दिनेश नेताम,Kamla Netam Daughter of Bhupendra Netam,0,namesake_diff_parent
+दीपक शर्मा पिता राकेश शर्मा,Deepak Sharma Son of Rakesh Sharma,1,relation_same_parent
+सुनीता शर्मा पति मोहन शर्मा,Sunita Sharma W/o Mohan Sharma,1,relation_same_spouse
+मोहन सिन्हा पुत्र दिनेश सिन्हा,Mohan Sinha Son of Dipak Sinha,0,namesake_diff_parent
+विजय मिश्रा पिता दीपक मिश्रा,Vijay Mishra Son of Deepak Mishra,1,relation_same_parent
+അനിത നായർ,Suresh Kumar,0,script_diff:Malayalam
+ସୁଜାତା ପଣ୍ଡା,Anita Sahu,0,script_diff:Odia
+पूजा पटेल पिता राकेश पटेल,Pooja Patel Daughter of Mahesh Patel,0,namesake_diff_parent
