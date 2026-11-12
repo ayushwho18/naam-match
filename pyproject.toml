@@ -9,7 +9,7 @@ description = "Transparent name matching for Indian records: Hindi, eight other 
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "Ayush Dewangan", email = "hello@theayushdewangan.me"}]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 keywords = ["name matching", "record linkage", "deduplication", "hindi", "indic", "transliteration", "land records",
             "kyc", "india", "jaro-winkler"]
 classifiers = [

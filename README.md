@@ -6,7 +6,7 @@ Is "आयुष देवांगन" the same person as "Aayush Devangan"? Tr
 
 Land records (records of rights) in Chhattisgarh and most of Hindi-speaking India are written in Devanagari; other states use Bengali, Odia, Gujarati, Gurmukhi, Tamil, Telugu, Kannada or Malayalam. Sale deeds, bank files, KYC documents and loan applications are usually in English, and the same person's name is spelt differently in each. A lender's title check, a property-data platform joining a deed to a land record, or a welfare scheme removing duplicate beneficiaries breaks right there. naam-match is a small, dependency-free matcher that explains every decision it makes, and would rather send a pair to a human than wrongly join two people's records.
 
-**Python 3.9+ · zero dependencies · MIT · [try it in your browser](https://ayushwho18.github.io/naam-match/) (nothing is uploaded) · also a live demo at [theayushdewangan.me](https://theayushdewangan.me/#demo-match)**
+**Python 3.10+ · zero dependencies · MIT · [try it in your browser](https://ayushwho18.github.io/naam-match/) (nothing is uploaded) · also a live demo at [theayushdewangan.me](https://theayushdewangan.me/#demo-match)**
 
 ## What's new in 0.2
 
@@ -146,7 +146,7 @@ Verdicts: **Match** (score ≥ 0.92, every token strong, no initials, relatives 
 pip install pytest && python -m pytest
 ```
 
-Includes a parity test (Python and JavaScript agree, step by step, on every pair in both benchmarks), CLI tests and a 10,000-row speed test. GitHub Actions runs them on Python 3.9, 3.11 and 3.13 for every push and pull request.
+Includes a parity test (Python and JavaScript agree, step by step, on every pair in both benchmarks), CLI tests and a 10,000-row speed test. GitHub Actions runs them on Python 3.10, 3.12 and 3.14 for every push and pull request.
 
 ## Licence
 
